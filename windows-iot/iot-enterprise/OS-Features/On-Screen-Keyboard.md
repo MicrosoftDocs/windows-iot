@@ -2,7 +2,7 @@
 title: On-screen Keyboard
 author: rsameser
 ms.author: riameser
-ms.date: 1/19/2021
+ms.date: 1/30/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot

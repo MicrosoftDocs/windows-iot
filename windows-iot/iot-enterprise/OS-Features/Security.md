@@ -71,21 +71,8 @@ Transport Layer Security (TLS), like Secure Sockets Layer (SSL), is an encryptio
 
 
 ## Cloud Security
-Microsoft Azure includes tools to safeguard data according to your company's security and compliance needs.
+Microsoft Azure includes tools to safeguard data according to your company's security and compliance needs. To learn more, visit [Azure Security](https://azure.microsoft.com/overview/security/)
 
-### Encryption at Rest
-Encryption is the secure encoding of data used to protect confidentiality of data. The Encryption at Rest design uses symmetric encryption to encrypt and decrypt large amounts of data quickly according to a simple conceptual model:
-
-* A symmetric encryption key is used to encrypt data as it is written to storage.
-* The same encryption key is used to decrypt that data as it is readied for use in memory.
-* Data may be partitioned, and different keys may be used for each partition.
-* Keys must be stored in a secure location with identity-based access control and audit policies. Data encryption keys are often encrypted with a key encryption key in Azure Key Vault to further limit access.
-
-In practice, key management and control scenarios, as well as scale and availability assurances, require additional constructs. Learn more about [Encryption at Rest concepts and components](https://docs.microsoft.com/azure/security/fundamentals/encryption-atrest).
-
-### Azure Active Directory
-The Azure Active Directory (Azure AD) enterprise identity service provides single sign-on and multi-factor authentication to help protect your users and their devices from 99.9 percent of cybersecurity attacks.
-* [Azure Active Directory Documentation](https://docs.microsoft.com/azure/active-directory/)
 
 ### Key Vault
 [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/general/basic-concepts) is a cloud service for securely storing and accessing secrets. A secret is anything that you want to tightly control access to, such as API keys, passwords, certificates, or cryptographic keys. Key Vault service supports two types of containers: vaults and managed HSM pools. Vaults support storing software and HSM-backed keys, secrets, and certificates. Managed HSM pools only support HSM-backed keys. See [Azure Key Vault REST API overview](https://docs.microsoft.com/azure/key-vault/general/about-keys-secrets-certificates) for complete details.
@@ -104,7 +91,7 @@ With the location condition in Conditional Access, you can control access to you
 Microsoft has all the tooling to provide immediate support and assistance.  
 
 ### Device Management
-Microsoft provides a whole suite of device management solutions to keep your devices safe and monitor activity at all times. Managing a device is now easier than ever on Windows 10 IoT Enterprise. There are multiple options that your organization can choose from in order to best manage your devices, such as Microsoft Intune, Endpoint Manager and 3rd party OMA-DM based management tools. OEMs can also select Azure Device Agent, which leaves it up to their customers to select the device management solution that fits them best.  
+Microsoft provides a whole suite of [device management](../Device-Management/Device-Management-Overview.md) solutions to keep your devices safe and monitor activity at all times. Managing a device is now easier than ever on Windows 10 IoT Enterprise. There are multiple options that your organization can choose from in order to best manage your devices, such as Microsoft Intune, Endpoint Manager and 3rd party OMA-DM based management tools. OEMs can also select Azure Device Agent, which leaves it up to their customers to select the device management solution that fits them best.  
 
 ### Device Recovery
 On the off chance something does go wrong, The Microsoft [Support and Recovery Assistant](https://www.microsoft.com/download/100607) works by running tests to figure out what's wrong and offers the best solution for the identified problem. It can currently fix Office, Office 365, Outlook, and Windows problems. If the Microsoft Support and Recovery Assistant can't fix a problem for you, it will suggest next steps and help you get in touch with Microsoft support.

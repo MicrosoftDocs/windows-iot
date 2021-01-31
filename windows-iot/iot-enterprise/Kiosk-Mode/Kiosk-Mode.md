@@ -2,7 +2,7 @@
 title: Kiosk Mode
 author: rsameser
 ms.author: riameser
-ms.date: 12/11/2020
+ms.date: 1/30/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -19,15 +19,17 @@ Kiosk configurations are based upon either [assigned access](https://docs.micros
 Your kiosk can run a Universal Windows Platform (UWP) app or a Windows desktop application. For [digital signage](https://docs.microsoft.com/windows/configuration/setup-digital-signage), simply select a digital sign player as your kiosk app. Check out the [guidelines for kiosk apps](https://docs.microsoft.com/windows/configuration/guidelines-for-assigned-access-app).
 
 ## Which type of kiosk do you need?
-If you want your kiosk to run a single app for anyone to see or use, consider a single-app kiosk that runs either a [Universal Windows Platform (UWP) app](https://docs.microsoft.com/windows/configuration/kiosk-methods#uwp) or a [Windows desktop application](https://docs.microsoft.com/windows/configuration/kiosk-methods#classic). For a kiosk that people can sign in to with their accounts or that runs more than one app, consider a [multi-app kiosk](https://docs.microsoft.com/windows/configuration/kiosk-methods#desktop).
+If you want your kiosk to run a single app for anyone to see or use, consider an [assigned-access single-app kiosk](./Single-App-Kiosk.md) that runs either a [Universal Windows Platform (UWP) app](https://docs.microsoft.com/windows/configuration/kiosk-methods#uwp) or a [Windows desktop application](https://docs.microsoft.com/windows/configuration/kiosk-methods#classic).
+
+For a kiosk that people can sign in to with their accounts or that runs more than one app, consider an [assigned access multi-app kiosk](https://docs.microsoft.com/windows/configuration/kiosk-methods#desktop).
 
 ## Which type of user account will be the kiosk account?
-The kiosk account can be a local standard user account, a domain account, or an Azure Active Directory (Azure AD) account, depending on the method that you use to configure the kiosk. If you want people to sign in and authenticate on the device, you should use a assigned access multi-app kiosk configuration. The single-app kiosk configuration doesn't require people to sign in to the device, although they can sign in to the kiosk app if you select an app that has a sign-in method.
+The kiosk account can be a local standard user account, a domain account, or an Azure Active Directory (Azure AD) account, depending on the method that you use to configure the kiosk. If you want people to sign in and authenticate on the device, you should use an assigned access multi-app kiosk configuration. The assigned access single-app kiosk configuration doesn't require people to sign in to the device, although they can sign in to the kiosk app if you select an app that has a sign-in method.
 
 ## Kiosk capabilities for Windows 10 IoT Enterprise
 | Mode | Features | Description | Customer Usage  |
 |------|----------|------------ |-----------------|
 | Assigned access | Single-app kiosk (UMP)  | Auto launches a UWP app in full screen and prevents access to other system functions, while monitoring the lifecycle of the kiosk app. Only supports one single-app kiosk profile under one account per device. | Digital signs & single function devices
 | Assigned access | Single-app kiosk (Microsoft Edge) | Auto launches Microsoft Edge and prevents access to other system functions, while monitoring the lifecycle of browser. Only supports one single-app kiosk profile under one account per device. | Public browsing kiosks & digital signs |
-| Assigned access | Multi-app kiosk | Always auto launches a restricted Start menu in full screen with the list of allowed app tiles. Supports configuring different multi-app kiosk profiles for different users/user groups per device. | Firstline worker shared devices |
+| Assigned access | Multi-app kiosk | Always auto launches a restricted Start menu in full screen with the list of allowed app tiles. Supports configuring different multi-app kiosk profiles for different users/user groups per device. | First line worker shared devices |
 | Shell launcher | Shell launcher | Auto launches an app that the customer specifies and monitors the lifecycle of this app. App can be used as a ‘shell’ if desired. No default lockdown policies like hotkey blocking are enforced in Shell Launcher. | Fixed purpose devices with a custom shell experience |

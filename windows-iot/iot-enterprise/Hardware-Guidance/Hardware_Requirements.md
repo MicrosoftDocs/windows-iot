@@ -2,7 +2,7 @@
 title: Hardware Requirements
 author: rsameser
 ms.author: riameser
-ms.date: 1/19/2021
+ms.date: 1/30/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -20,7 +20,7 @@ This specification defines the minimum hardware requirements necessary to:
 
 The goal of this specification is to enable OEMs, ODMs, SoC vendors, and other component vendors to make early design decisions for devices and computers that will run Windows 10 IoT Enterprise.
 
-This specification does not provide compatibility and certification requirements for devices and computers that run Windows 10 IoT Enterprise or implementation guidance for exceptional user experiences. 
+This specification does not provide compatibility and certification requirements for devices and computers that run Windows 10 IoT Enterprise or implementation guidance for exceptional user experiences.
 
 ## Processor
 Devices that run Windows 10 IoT Enterprise require a 1 GHz or faster processor or SoC that meets the following requirements:
@@ -49,14 +49,10 @@ Devices that run Windows 10 IoT Enterprise must include a storage device that me
 Display size requirements do not apply to Windows 10 IoT Enterprise.
 
 ### Graphics
-Devices that run Windows 10 for IoT Enterprise must include a GPU that supports DirectX 9 or later.
+Devices that run Windows 10 for IoT Enterprise **and** require hardware accelerated graphics, must include a GPU that supports DirectX 9 or later.
 
 ### Networking
-Devices that run Windows 10 IoT Enterprise must include at least one network connectivity option, such as Wi-Fi or an Ethernet adapter.
-
-## Hardware buttons
-* [Button implementation requirements for Windows 10 IoT Enterprise](https://docs.microsoft.com/windows-hardware/design/minimum/minimum-hardware-requirements-overview#36-hardware-buttons)
-* [Custom Hardware Button Behavior](https://docs.microsoft.com/windows-hardware/design/minimum/minimum-hardware-requirements-overview#66-hardware-button-behavior)
+It is recommended that devices that run Windows 10 IoT Enterprise include at least one network connectivity option, such as Wi-Fi or an Ethernet adapter.
 
 ## Trusted Platform Module (TPM)
 > [!NOTE]

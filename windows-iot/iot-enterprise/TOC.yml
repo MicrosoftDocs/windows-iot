@@ -7,6 +7,9 @@
     href: Hardware-Guidance/Hardware_Requirements.md
   - name: SoCs and custom boards
     href: Hardware-Guidance/SoCs.md
+- name: Quickstarts
+  expanded: false 
+  items: 
   - name: Start prototyping
     href: Hardware-Guidance/Prototype.md
 - name: Kiosk mode
@@ -14,9 +17,9 @@
   items: 
   - name: Overview
     href: Kiosk-Mode/Kiosk-Mode.md
-  - name: Assigned access Single-App Kiosk
+  - name: Assigned access single-app kiosk
     href: Kiosk-Mode/Single-App-Kiosk.md
-  - name: Assigned acess Multi-App Kiosk
+  - name: Assigned acess multi-app kiosk
     href: Kiosk-Mode/Multi-App-Kiosk.md 
   - name: Shell Launcher
     href: Kiosk-Mode/Shell-Launcher.md
@@ -42,7 +45,7 @@
     href: Branding-Features/Custom-Logon.md
   - name: Microsoft Store Access
     href: Branding-Features/Microsoft-Store-Access.md
-  - name: Secondary Microsoft Edge Tiles
+  - name: Secondary Tiles
     href: Branding-Features/Edge-Tiles.md
   - name: Page Visibility   
     href: Branding-Features/Page-Visibility.md
@@ -64,7 +67,7 @@
 - name: IoT Device Features
   expanded: false 
   items:
-  - name: Zero Exhuast
+  - name: Network Service Controls
     href: OS-Features/Zero-Exhaust.md
   - name: Bus Providers 
     href: OS-Features/Bus-Providers.md
@@ -85,19 +88,16 @@
   items: 
   - name: Audit Mode
     href: Commercialization/Audit-Mode.md
-  - name: Licensing Models
+  - name: Licensing & Usage
     href: Commercialization/Licensing.md
   - name: Manufacturing Guide 
-    href: https://docs.microsoft.com/windows-hardware/manufacture/desktop/iot-ent-overview
-- name: Tutorials
-  expanded: false 
-  items: 
-  - name: Deployment Framework
-    href: https://github.com/ms-iot/windows-iotent-deploy
+    href: Commercialization/Manufacturing-Guide.md
 - name: Azure IoT Edge for Linux on Windows (EFLOW) 
-  href: https://docs.microsoft.com/azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06
-- name: Release Notes
-  href: Release_Notes.md
+  href: EFLOW.md
+- name: Accessibility in Windows IoT 
+  href: Accessibility.md
+- name: Features by Release
+  href: Features.md
 - name: Frequently Asked Questions
   href: FAQ.md
 - name: Contact Us
