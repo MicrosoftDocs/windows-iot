@@ -2,7 +2,7 @@
 title: EFLOW
 author: rsameser
 ms.author: riameser
-ms.date: 1/30/2021
+ms.date: 1/31/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -11,7 +11,7 @@ keywords: IoT Enterprise, Linux, Device Builders, Appliance, EFLOW, Azure IoT Ed
 ---
 
 # Azure IoT Edge for Linux on Windows (EFLOW)
-[Azure IoT Edge for Linux on Windows](https://docs.microsoft.com/en-us/azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06) allows you to run containerized Linux workloads alongside Windows applications in Windows IoT deployments. Businesses that rely on Windows IoT to power their edge devices can now take advantage of the cloud-native analytics solutions being built in Linux.
+[Azure IoT Edge for Linux on Windows](https://docs.microsoft.com/azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06&preserve-view=true) allows you to run containerized Linux workloads alongside Windows applications in Windows IoT deployments. Businesses that rely on Windows IoT to power their edge devices can now take advantage of the cloud-native analytics solutions being built in Linux.
 
 IoT Edge for Linux on Windows works by running a Linux virtual machine on a Windows device. The Linux virtual machine comes pre-installed with the IoT Edge runtime. Any IoT Edge modules deployed to the device run inside the virtual machine. Meanwhile, Windows applications running on the Windows host device can communicate with the modules running in the Linux virtual machine.
 
@@ -32,5 +32,5 @@ As a developer, you may also choose to implement your own custom modules using t
 In addition, Windows applications can easily interact with Linux modules running on the same physical device. A Windows process that provides UI or accesses cameras, sensors, or other hardware can seamlessly communicate with business logic or ML inferencing provided by a Linux module.
 
 ## Additional Resources
-* [EFLOW Documentation](https://docs.microsoft.com/en-us/azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06)
+* [EFLOW Documentation](https://docs.microsoft.com/azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06&preserve-view=true)
 * [IoT Show: Run Linux based IoT Edge modules on Windows IoT](https://www.youtube.com/watch?v=UB2yigjg5V8)

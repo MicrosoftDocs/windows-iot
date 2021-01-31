@@ -2,7 +2,7 @@
 title: Start Prototyping
 author: rsameser
 ms.author: riameser
-ms.date: 1/30/2021
+ms.date: 1/31/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -26,7 +26,7 @@ The following boards have been proven to be a great start point for your Windows
 **If you are a SoM provider or an ODM and would like to be added to the list below, please send email to winiotentsomhelp@microsoft.com or directly edit this page and submit a pull request.**
 
 ## Step 2: Evaluate Edition
-To get started, you can leverage the [Windows 10 IoT Enterprise 90 day Evaluation](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise). To select which edition of Windows 10 IoT Enterprise you would like to work with, please see the [release notes](../Release_Notes.md).
+To get started, you can leverage the [Windows 10 IoT Enterprise 90 day Evaluation](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise). To select which edition of Windows 10 IoT Enterprise you would like to work with, please review [Features by Release](../Features.md).
 
 ## Step 3: Deploy an Image
 If your board comes with instructions on how to deploy Windows 10 IoT Enterprise, please follow that.

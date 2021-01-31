@@ -118,6 +118,6 @@ This documentation set provides additional information to support users that wil
 Articles include:
 * [Azure IoT Edge for Linux on Windows](./EFLOW.md)
 * [Accessibility in Windows](./Accessibility.md)
-* [Features by Release](./Release_Notes.md)
+* [Features by Release](./Features.md)
 * [Frequently Asked Questions](./FAQ.md)
 * [Contact Us](./Contact-Us.md)
