@@ -16,19 +16,19 @@ If you have questions, concerns or require support for Windows 10 IoT Enterprise
 ## Microsoft Customer Service and Support
 * [Contact Microsoft Support](https://support.microsoft.com/en-us/contactus#)
 * [Support for Business](https://support.microsoft.com/supportforbusiness/productselection)
-* [Microsoft Volume Licensing Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx?ref=gethelpapp)
-
-## Premier Support for Enterprise
-* [Premier Support Homepage](https://www.microsoft.com/en-us/msservices/premier-support)
-* [Services Hub](https://serviceshub.microsoft.com/support/contactsupport)
 
 ## Ecosystem Partner Services Offering (EPSO)
-*If you are a Windows IoT Partner and require further assistance, please contact epsoinfo@microsoft.com.*  
+If you would like to purchase system integration support from Microsoft, please contact epsoinfo@microsoft.com.
 
 ## MVP Program
  *Consultants and MVPs are available for assistance.*
  * [Search for MVP Near You](https://mvp.microsoft.com/)
 
 ## Developer Community
-* [MSDN](https://social.msdn.microsoft.com/Forums/en-US/home?forum=WindowsIoT)
+* [Microsoft Developer Network (MSDN)](https://social.msdn.microsoft.com/Forums/en-US/home?forum=WindowsIoT)
 * [Stack Overflow](https://stackoverflow.com/questions/tagged/windows-10-iot-enterprise)
+* [Microsoft Windows 10 IoT Tech Community](https://techcommunity.microsoft.com/t5/windows-10-iot/bd-p/Windows10IoT)
+* [Channel9](https://channel9.msdn.com/)
+* [Windows Blogs](https://blogs.windows.com/windowsdeveloper/)
+* [Microsoft Developer Blogs](https://devblogs.microsoft.com/)
+* [Microsoft IoT Developers YouTube Channel](https://www.youtube.com/channel/UCL7wy-iy_V76xxPnrIzGOZQ)

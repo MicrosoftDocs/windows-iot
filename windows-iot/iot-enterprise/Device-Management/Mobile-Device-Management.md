@@ -20,7 +20,7 @@ Check out [What's new in mobile device enrollment and management](https://docs.m
 
 ## Mobile Device Management Policies
 The MDM security baseline includes policies that cover the following areas:
-* Microsoft inbox security technology (not deprecated) such as BitLocker, Windows Defender SmartScreen, and DeviceGuard (virtual-based security), ExploitGuard, Defender, and Firewall
+* Microsoft inbox security technology (not deprecated) such as BitLocker, and Windows Defender SmartScreen. 
 * Restricting remote access to devices
 * Setting credential requirements for passwords and PINs
 * Restricting use of legacy technology

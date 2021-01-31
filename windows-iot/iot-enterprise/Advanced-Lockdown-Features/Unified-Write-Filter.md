@@ -32,7 +32,7 @@ The first time you enable UWF on your device, UWF makes the following changes to
 * Defragmentation service is turned off.
 * BCD setting **bootstatuspolicy** is set to **ignoreallfailures**.
 
-After UWF is enabled, you can finally select a drive to protect and start using UWF.
+After UWF is enabled, you can select a drive to protect and start using UWF.
 
 > [!TIP]
 > You can install UWF for running PCs and devices, prepare it for customized Windows images, or manage it remotely using [CSP](https://docs.microsoft.com/partner-center/csp-overview) or [WMI](https://docs.microsoft.com/windows/win32/wmisdk/about-wmi).

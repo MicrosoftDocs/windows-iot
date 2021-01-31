@@ -2,7 +2,7 @@
 title: Updates
 author: rsameser
 ms.author: riameser
-ms.date: 1/27/2021
+ms.date: 1/31/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -35,9 +35,6 @@ You can use the Active Hours Group Policy, MDM, or registry setting to limit upd
 
 1. Open the Group Policy Editor (gpedit.msc) and navigate to **Computer Configuration\Administrative Templates\Windows Components\Windows Update** and open the **Turn off auto-restart for updates during active hours** policy setting. **Enable** the policy so you can set the start and end times for active hours.
 2. Set the **Start** and **End** time to the Active Hours window. For example, set Active Hours to start at 4:00AM and end 2:00AM. This allows the system to reboot from updates between the hours of 2:00 AM and 4:00 AM.
-
-## Windows Intune
-A major advantage of using Window 10 IoT Enterprise is having complete control on windows updates for all your devices. Through [Windows Intune](https://docs.microsoft.com/mem/intune/protect/windows-update-settings), you have the ability to configure update settings on devices and to defer update installations. You can also prevent devices from installing features from new Windows versions to help keep them stable, while allowing those devices to continue installing updates for quality and security. Read more about how Windows Intune can help you [manage updates](https://docs.microsoft.com/mem/intune/protect/windows-update-for-business-configure).
 
 ## Disable Automatic Windows Updates
 Security and stability are at the core of a successful IoT project, and Windows Update provides updates to ensure Windows 10 IoT Enterprise has the latest applicable security and stability updates. You might, however, have a device scenario where updating Windows has to be handled completely manually. For this type of scenario, we recommend disabling automatic updating through Windows Update. In previous versions of Windows device partners could stop and disable the Windows Update service, but this is no longer the supported method for disabling automatic updates. Windows 10 has a number of policies that allow you to configure Windows Updates in several ways.

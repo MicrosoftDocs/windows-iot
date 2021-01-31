@@ -2,7 +2,7 @@
 title: Shell Launcher
 author: rsameser
 ms.author: riameser
-ms.date: 11/19/2020
+ms.date: 1/30/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -29,27 +29,20 @@ For sample XML configurations for the different app combinations, see [Samples f
 ## Turn on Shell Launcher
 Shell Launcher is an optional component and is not turned on by default in Windows 10. It must be turned on prior to configuring. You can turn on and configure Shell Launcher in a customized Windows 10 image (.wim) if Microsoft Windows has not been installed. If Windows has already been installed and you are applying a provisioning package to configure Shell Launcher, you must first turn on Shell Launcher in order for a provisioning package to successfully apply.
 
-### Enable Shell Launcher using Control Panel
-1. In the Search the web and Windows field, type Programs and Features and either press Enter or tap or click Programs and Features to open it.
-2. In the Programs and Features window, click Turn Windows features on or off.
-3. In the Windows Features window, expand the Device Lockdown node, select or clear the checkbox for Shell Launcher, and then click OK.
-4. The Windows Features window indicates that Windows is searching for required files and displays a progress bar. Once found, the window indicates that Windows is applying the changes. When completed, the window indicates the requested changes are completed.
-5. Click Close to close the Windows Features window.
+There are multiple ways to *enable* Shell Launcher:
+* [Control Panel](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#enable-shell-launcher-using-control-panel)
+* [WESL_UserSetting](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#enable-shell-launcher-by-calling-wesl_usersetting)
+* [DISM](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#enable-shell-launcher-using-dism)
+* [Windows Configuration Designer](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#enable-shell-launcher-using-windows-configuration-designer)
 
-## Configure Shell Launcher
-There are two ways you can configure Shell Launcher:
-1. In Windows 10, version 1803, you can configure Shell Launcher v1 using the ShellLauncher node of the Assigned Access Configuration Service Provider (CSP). See AssignedAccess CSP for details. Configuring Shell Launcher using this method also automatically enables Shell Launcher on the device, if the device supports it. In Windows 10, version 1809 with the KB4551853 update, you can also configure Shell Launcher v2 using the ShellLauncher node of the AssignedAccess CSP.
-2. Use the Shell Launcher v1 WMI providers or Shell Launcher v2 bridge WMI directly in a PowerShell script or application.
+Learn the methods to [configure](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#configure-shell-launcher) Shell Launcher.
 
-You can configure the following options for Shell Launcher:
-* Enable or disable Shell Launcher.
-* Specify a shell configuration for a specific user or group.
-* Remove a shell configuration for a specific user or group.
-* Change the default shell configuration.
-* Get information on a shell configuration for a specific user or group.
-
-> [!NOTE]
-> Changes do not take effect until a user signs in.
+## Shell Launcher Capabilities
+Explore the various capabilities of Shell Launcher:
+* [Launch different shells for different user accounts](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#launch-different-shells-for-different-user-accounts)
+* [Perform an action when the shell exits](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#perform-an-action-when-the-shell-exits)
+* [Set your custom shell](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#set-your-custom-shell)
+* [Understand Shell Launcher user rights](https://docs.microsoft.com/windows-hardware/customize/enterprise/shell-launcher#shell-launcher-user-rights)
 
 ## Additional Resources
 * [Use Shell Launcher to create a Windows 10 Kiosk](https://docs.microsoft.com/windows/configuration/kiosk-shelllauncher)

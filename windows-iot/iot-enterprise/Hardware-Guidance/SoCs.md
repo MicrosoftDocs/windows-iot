@@ -20,9 +20,9 @@ You'll also need to decide whether you want to use an off-the-shelf board or dev
 ## Boards
 If an off-the-shelf device is in a form factor that includes the connectivity options that work for your scenarios, that will often be the most cost- and time-effective choice.  
 
-For most people, developing a complete custom board would make sense when the product is expected to be sold in volumes greater than tens, or even hundreds, of thousands of units. For smaller volumes, using a SoM and designing a custom carrier board, instead of designing a completely new board, can significantly reduce your cost and time-to-market, as well as streamlining software development and integration.
+For most people, developing a complete custom board would make sense when the product is expected to be sold in volumes greater than hundreds, or even thousands, of millions of units. For smaller volumes, using a SoM and designing a custom carrier board, instead of designing a completely new board, can significantly reduce your cost and time-to-market, as well as streamlining software development and integration.
 
-Each of the platforms has unique quirks that need attention during implementation, please review the following SoC provider's websites for more details.  
+Each of the platforms has unique features that need attention during implementation, please review the following SoC provider's websites for more details.  
 
 * [Intel](https://www.intel.com/content/www/us/en/internet-of-things/overview.html)
 * [AMD](https://www.amd.com/en/products/embedded)

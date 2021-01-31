@@ -2,7 +2,7 @@
 title: Embedded Mode
 author: rsameser
 ms.author: riameser
-ms.date: 1/29/2021
+ms.date: 1/30/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -18,15 +18,64 @@ Embedded Mode enables:
 * Use of systemManagement capability
 
 ## Enable Embedded Mode
-Embedded mode must be enabled by following the steps below on Windows IoT Enterprise.
-1. Run the Command Prompt as an administrator.
-2. Enter the following command **sc config embeddedmode start= demand**
-3. Close the command window and restart the computer.
+To enable embedded mode, you will need to create a provisioning package in Imaging and Configuration Designer (ICD) that sets AllowEmbeddedMode=1. To install ICD, you need to download and install the Windows ADK for Windows 10.
 
-*The embeddedmode service is using the embeddedmodesvc.dll file that is located in the %WinDir%\System32 folder. If the file is changed, damaged or deleted, you can restore its original version from Windows 10 installation media*.
+* [Download the Windows ADK for Windows 10](https://go.microsoft.com/fwlink/p/?LinkId=526740)
+* [Learn about what's new in the Windows ADK for Windows 10](https://msdn.microsoft.com/library/windows/hardware/dn927348(v=vs.85).aspx)
 
-> [!NOTE]
-> If Embedded Mode fails to start, the failure details are being recorded into Event Log. Then Windows 10 will start up and notify the user that the embeddedmode service has failed to start due to the error.
+1. When installing the ADK select **Imaging and Configuration Designer (ICD)**
+
+2. After installation is complete, run **Windows Imaging and Configuration Designer (WICD)**.
+
+    ![WICD Icon](../media/EmbeddedMode/WICD_Icon.png)
+
+3. Click **Advanced provisioning**.  Name the project **AllowEmbeddedMode** and click **Next**.
+
+    ![Step #3](../media/EmbeddedMode/Step3.png)
+
+4. Choose common to **All Windows editions** then **Next**.
+
+    ![Step #4](../media/EmbeddedMode/Step4.png)
+
+5. Click **Finish**.
+
+    ![Step #5](../media/EmbeddedMode/Step5.png)
+
+6. In the search box type **EmbeddedMode** and then click on **AllowEmbeddedMode**.
+
+    ![Step #6](../media/EmbeddedMode/Step6.png)
+
+7. In the center pane set the value of **AllowEmbeddedMode** to **Yes**
+
+    ![Step #7](../media/EmbeddedMode/Step7.png)
+
+8. Click **Export** > **Provisioning Package**
+
+    ![Step #8](../media/EmbeddedMode/Step8.png)
+
+9. Click **Next**.
+
+    ![Step #9](../media/EmbeddedMode/Step9.png)
+
+10. Click **Next**.
+
+    ![Step #10](../media/EmbeddedMode/Step10.png)
+
+11. Click **Next**.
+
+    ![Step #11](../media/EmbeddedMode/Step11.png)
+
+12. Click **Build**.
+
+    ![Step #12](../media/EmbeddedMode/Step12.png)
+
+13. To install the embedded mode .PPKG on Windows IoT Enterprise double-click on the .PPKG.
+
+14. Click **Yes, add it**.
+
+    Click yes on the LUA dialog if it appears, and the click **Yes, add it** on the dialog shown below.
+
+    ![Step #14 Standard](../media/EmbeddedMode/Step14Standard.png)
 
 
 ## Background Applications

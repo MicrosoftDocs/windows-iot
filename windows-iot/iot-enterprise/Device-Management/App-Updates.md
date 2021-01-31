@@ -38,16 +38,6 @@ The Apps can be designed to control the updates by itself (either automatically 
 
 See [Download and install package updates for your app](https://docs.microsoft.com/windows/uwp/packaging/self-install-package-updates) for more information on building this capability. In this case, the AllowAppStoreAutoUpdate should be disabled.
 
-## Using Device Update Center
-[Device Update Center](https://docs.microsoft.com/windows-hardware/service/iot/using-device-update-center) is a channel to update OEM custom packages that includes apps, drivers and various other files. In this path, the application is packaged in a provisioning package and delivered to the device. On the device boot, this provisioning package is processed and the contained app is installed/updated. See instructions for Adding an app to your image.
-
-This option is interesting for OEMs who have:
-
-* **Dependency with drivers**: App updates are dependent on drivers and are updated at the same frequency of drivers.
-* **Dependency with other apps**: More than one apps present on the device and should be updated together at all times.
-
-In this option, the apps that is pre-packaged need not be Microsoft Store compliant apps (store signed). You may still want to Store sign the apps that enables you an option to update the apps using the Microsoft Store in the future.
-
 ## Using Azure IoT Device Management
 [Azure IoT Device Management (AzureDM)](https://docs.microsoft.com/windows/iot-core/manage-your-device/azureiotdm) is a highly scalable management solution available on Windows 10 IoT Enterprise. See [Application Management](https://github.com/ms-iot/iot-core-azure-dm-client/blob/master/docs/application-management.md) for the details of installing and updating applications via AzureDM.
 
@@ -55,8 +45,8 @@ In this option, the apps that is pre-packaged need not be Microsoft Store compli
 The OMA-DM interface is supported in Windows 10 IoT Enterprise and any OMA-DM compliant management solution can be used to install and update applications. Read the documentation for [EnterpriseModernAppManagement CSP](https://docs.microsoft.com/windows/client-management/mdm/enterprisemodernappmanagement-csp) for usage instructions.
 
 ## Comparisons of various options
-| Item | Using Microsoft Store | Using Device Update Center | Using AzureDM | Using OMA-DM |
-|------|-----------------------|----------------------------|---------------|--------------|
-| Appx Signing | Store Signed | Store signed or OEM Signed | Store signed or OEM Signed | Store signed or OEM Signed |
-| Distribution/Visibility | Store private (not available in store catalog) | Private | Private | Private |
-| Infrastructure | Microsoft Store | Windows Update | Azure IoT / Storage | OEM Infrastructure
+| Item | Using Microsoft Store | Using AzureDM | Using OMA-DM |
+|------|-----------------------|---------------|--------------|
+| Appx Signing | Store Signed | Store signed or OEM Signed | Store signed or OEM Signed |
+| Distribution/Visibility | Store private (not available in store catalog) | Private | Private |
+| Infrastructure | Microsoft Store | Azure IoT / Storage | OEM Infrastructure

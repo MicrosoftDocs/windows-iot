@@ -2,7 +2,7 @@
 title: Getting Started with Windows 10 IoT Enterprise
 author: rsameser
 ms.author: riameser
-ms.date: 1/27/2021
+ms.date: 1/30/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -14,7 +14,11 @@ keywords: IoT Enterprise, binary, fixed purpose devices, LTSC, Silicon
 This article will give you an overview of the product and guide you through how to get started with Windows 10 IoT Enterprise.
 
 ## What is Windows 10 IoT Enterprise?
-Windows 10 IoT Enterprise is a full version of Windows 10 that delivers enterprise manageability and security to IoT solutions. Windows 10 IoT Enterprise shares all the benefits of the worldwide Windows ecosystem. It is a binary equivalent to Windows 10 Enterprise, so you can use the same familiar development and management tools as client PCs and laptops. However, when it comes to licensing and distribution, the desktop version and IoT versions differ. Windows 10 IoT Enterprise offers both LTSC and SAC options, and OEMs can choose the one they need for their devices. Please review [licensing](./Commercialization/Licensing.md) for more details.
+Windows 10 IoT Enterprise is a full version of Windows 10 that delivers enterprise manageability and security to IoT solutions. Windows 10 IoT Enterprise shares all the benefits of the worldwide Windows ecosystem. It is a binary equivalent to Windows 10 Enterprise, so you can use the same familiar development and management tools as client PCs and laptops.
+
+However, when it comes to licensing and distribution, the desktop version and IoT versions differ. **Windows 10 IoT Enterprise offers both LTSC and SAC options**, and OEMs can choose the one they need for their devices.
+
+For more information on how to reach out to a [distributor](https://aka.ms/IoTDistributorList) and how to purchase a license, please review [Licensing & Usage](./Commercialization/Licensing.md).
 
 
 ## Why Do Customer Choose Windows 10 IoT Enterprise?
@@ -47,8 +51,8 @@ This section walks users through the features and functionalities of Kiosk Mode 
 
 Articles include:
 * [Kiosk Mode Overview](./Kiosk-Mode/Kiosk-Mode.md)
-* [Single-App Kiosk Mode](./Kiosk-Mode/Single-App-Kiosk.md)
-* [Multi-App Kiosk Mode](./Kiosk-Mode/Multi-App-Kiosk.md)
+* [Assigned access single-app kiosk mode](./Kiosk-Mode/Single-App-Kiosk.md)
+* [Assigned access multi-app kiosk mode](./Kiosk-Mode/Multi-App-Kiosk.md)
 * [Configure Shell Launcher](./Kiosk-Mode/Shell-Launcher.md)
 
 ### Advanced Lockdown Features
@@ -96,7 +100,7 @@ Articles include:
 * [Bus Providers](./OS-Features/Bus-Providers.md)
 * [Enable Zero Exhaust](./OS-Features/Zero-Exhaust.md)
 * [Enable On-Screen Keyboard](./OS-Features/On-Screen-Keyboard.md)
-* [Under Windows IoT Accessibility & Privacy Policies](./OS-Features/Accessibility-Privacy.md)
+* [Accessibility & Privacy Features](./OS-Features/Accessibility-Privacy.md)
 
 
 ### Commercialization
@@ -105,13 +109,15 @@ Learn how to commercialize your Windows 10 IoT Enterprise devices.
 Articles include:
 * [Audit Mode Overview](./Commercialization/Audit-Mode.md)
 * [Explore Licensing Options (LTSC, SAC)](./Commercialization/Licensing.md)
-* [Windows 10 IoT Enterprise Manufacturing Guide](https://docs.microsoft.com/windows-hardware/manufacture/desktop/iot-ent-overview)
+* [Windows 10 IoT Enterprise Manufacturing Guide](./Commercialization/Manufacturing-Guide.md)
 
 
 ### Additional Resources
 This documentation set provides additional information to support users that will be updated regularly.
 
 Articles include:
+* [Azure IoT Edge for Linux on Windows](./EFLOW.md)
+* [Accessibility in Windows](./Accessibility.md)
+* [Features by Release](./Features.md)
 * [Frequently Asked Questions](./FAQ.md)
-* [Release Notes](./Release_Notes.md)
 * [Contact Us](./Contact-Us.md)
