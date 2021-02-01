@@ -13,14 +13,14 @@ keywords: IoT Enterprise, OEM, Licensing, LTSC, SAC
 # Licensing & Usage
 In order to start your journey with Windows 10 IoT Enterprise, you'll need to get a license.
 
-You can retrieve a license by contacting a [Windows IoT Distributor](https://aka.ms/IoTDistributorList) or leverage the [Windows 10 IoT Enterprise 90 day Evaluation](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise).
+You can retrieve a license by contacting a [Windows IoT Distributor](https://aka.ms/IoTDistributorList) or use the [Windows 10 IoT Enterprise 90 day Evaluation](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise).
 
 ## Distributors
 Microsoft offers more than 500 Windows IoT and Embedded SKUs. Authorized distributors of Windows IoT products can help you pick the right SKU for your hardware and your budget by leveraging their development experiences, and knowledge, to help you build secure and connected Windows IoT solutions. If you would like to work with one of our distributors, please [select a distributor](https://aka.ms/IoTDistributorList) in your region and contact the distributor directly for more details.
 
 
 ### Fixed purpose devices
-Windows is well known as the operating system for laptops and desktops that have been used by consumers and businesses worldwide for decades.  Windows also powers many ATM machines, point-of-sale terminals, industrial automation systems, thin clients, medical devices, digital signage, kiosks, and other fixed purpose devices.  Windows 10 IoT Enterprise allows you to build these fixed purpose devices with specific allowances and restrictions in the license agreement.  
+Windows is well known as the operating system for laptops and desktops that have been used by consumers and businesses worldwide for decades. Windows also powers many ATM machines, point-of-sale terminals, industrial automation systems, thin clients, medical devices, digital signage, kiosks, and other fixed purpose devices. Windows 10 IoT Enterprise allows you to build these fixed purpose devices with specific allowances and restrictions in the license agreement.  
 
 > [!TIP]
 > See your licensing agreement for complete guidance on all Windows 10 IoT Enterprise usage scenarios. If you are an end-user customer, your OEM should have provided you with the terms in an agreement. If you are an OEM, you can direct questions to your distributor regarding your specific licensing agreement.  
@@ -34,6 +34,7 @@ A fixed purpose device differs from a general-purpose device in the following wa
 
 
 > [!NOTE]
+>
 > There are currently **two** release channels for Windows 10:
 > * The Semi-Annual Channel receives feature updates twice per year and provides support for **18-30 months**.
 > * The Long Term Servicing Channel, which is designed to be used only for specialized devices (which typically don't run Office) such as those that control medical equipment or ATM machines, receives new feature releases every two to three years and provides support for **10 years**.
