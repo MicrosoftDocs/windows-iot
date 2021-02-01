@@ -14,17 +14,16 @@ keywords: IoT Enterprise, binary, fixed purpose devices, LTSC, Silicon
 This article will give you an overview of the product and guide you through how to get started with Windows 10 IoT Enterprise.
 
 ## What is Windows 10 IoT Enterprise?
-Windows 10 IoT Enterprise is a full version of Windows 10 that delivers enterprise manageability and security to IoT solutions. Windows 10 IoT Enterprise shares all the benefits of the worldwide Windows ecosystem. It is a binary equivalent to Windows 10 Enterprise, so you can use the same familiar development and management tools as client PCs and laptops.
+Windows 10 IoT Enterprise is a full version of Windows 10 that delivers enterprise manageability and security to IoT solutions. Windows 10 IoT Enterprise shares all the benefits of the worldwide Windows ecosystem. It is a binary equivalent to Windows 10 Enterprise, so you can use the same familiar development and management tools as client PCs and laptops. However, when it comes to *licensing and distribution*, the desktop version and IoT versions differ.
 
-However, when it comes to licensing and distribution, the desktop version and IoT versions differ. **Windows 10 IoT Enterprise offers both LTSC and SAC options**, and OEMs can choose the one they need for their devices.
 
 > [!NOTE]
 >
-> For more information on how to reach out to a [Windows IoT Distributor](https://aka.ms/IoTDistributorList) and how to purchase a license, please review [Licensing & Usage](./Commercialization/Licensing.md).
+> Windows 10 IoT Enterprise offers *both* LTSC and SAC options, and OEMs can choose the one they need for their devices. For more information on how to reach out to a [Windows IoT Distributor](https://aka.ms/IoTDistributorList) or how to purchase a license, review [Licensing & Usage](./Commercialization/Licensing.md).
 
 
 ## Why Do Customer Choose Windows 10 IoT Enterprise?
-There are three main reasons why customers choose to develop with Windows 10 IoT Enterprise
+There are three main reasons why customers choose to develop with Windows 10 IoT Enterprise:
 
 1. **Fast** - Quickly get IoT devices to market and maintain for the long term with out of the box OS
 2. **Secure** - Help keep devices secure for the long term with turnkey enterprise platform security
@@ -32,7 +31,9 @@ There are three main reasons why customers choose to develop with Windows 10 IoT
 
 > [!TIP]
 >
-> If you are building any kind of **OEM style appliance**, such as a point-of-sale or retail device, industrial automation equipment, digital signage, medical equipment or any appliance with a screen - Windows 10 IoT Enterprise is the solution for you. See how our [customers](https://www.microsoft.com/WindowsForBusiness/windows-iot) are using Windows 10 IoT Enterprise to accomplish their business goals.
+> If you are building any kind of **OEM style appliance**, such as a point-of-sale or retail device, industrial automation equipment, digital signage, medical equipment or any appliance with a screen, Windows 10 IoT Enterprise is the solution for you.
+>
+> See how our [customers](https://www.microsoft.com/WindowsForBusiness/windows-iot) are using Windows 10 IoT Enterprise to accomplish their business goals.
 
 
 ## Documentation Overview
@@ -74,8 +75,7 @@ Articles include:
 
 
 ### Branding Features
-This section reviews how to create a custom user-experience that highlights your brand and brings your ideal visual Windows vision to life.
-
+This section reviews how to create a custom user-experience that highlights your brand.
 Articles include:
 * [Enable Custom Logon](./Branding-Features/Custom-Logon.md)
 * [Manage Microsoft Store Access](./Branding-Features/Microsoft-Store-Access.md)
@@ -118,7 +118,7 @@ Articles include:
 
 
 ### Additional Resources
-This documentation set provides additional information to support users that will be updated regularly.
+These resources provide additional information and support to our customers and partners.
 
 Articles include:
 * [Azure IoT Edge for Linux on Windows](./EFLOW.md)
