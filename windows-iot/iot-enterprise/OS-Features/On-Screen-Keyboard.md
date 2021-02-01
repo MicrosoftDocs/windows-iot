@@ -32,7 +32,8 @@ Windows has a built-in Ease of Access tool called the On-Screen Keyboard that ca
 Go to **Start** > then select **Settings** > **Ease of Access** > **Keyboard**, and turn on the toggle under Use the **On-Screen Keyboard**. A keyboard that can be used to move around the screen and enter text will appear on the screen. The keyboard will remain on the screen until you close it.
 
 > [!NOTE]
-To open the On-Screen Keyboard from the sign-in screen, select the **Ease of Access** button in the lower-right corner of the sign-in screen, and then select **On-Screen Keyboard**.
+>
+> To open the On-Screen Keyboard from the sign-in screen, select the **Ease of Access** button in the lower-right corner of the sign-in screen, and then select **On-Screen Keyboard**.
 
 ### To change how info is entered into the On-Screen Keyboard
 With the On-Screen Keyboard open, select the **Options** key, and choose the options you want:

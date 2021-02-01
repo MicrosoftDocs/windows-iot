@@ -74,19 +74,6 @@ Transport Layer Security (TLS), like Secure Sockets Layer (SSL), is an encryptio
 Microsoft Azure includes tools to safeguard data according to your company's security and compliance needs. To learn more, visit [Azure Security](https://azure.microsoft.com/overview/security/)
 
 
-### Key Vault
-[Azure Key Vault](https://docs.microsoft.com/azure/key-vault/general/basic-concepts) is a cloud service for securely storing and accessing secrets. A secret is anything that you want to tightly control access to, such as API keys, passwords, certificates, or cryptographic keys. Key Vault service supports two types of containers: vaults and managed HSM pools. Vaults support storing software and HSM-backed keys, secrets, and certificates. Managed HSM pools only support HSM-backed keys. See [Azure Key Vault REST API overview](https://docs.microsoft.com/azure/key-vault/general/about-keys-secrets-certificates) for complete details.
-
-### Policy-Based Access Control
-The combination of Azure RBAC and Azure Policy provides full scope control in Azure.
-
-There are a few key differences between [Azure Policy and Azure role-based access control (Azure RBAC)](https://docs.microsoft.com/azure/governance/policy/overview#azure-policy-and-azure-rbac). Azure Policy evaluates state by examining properties on resources that are represented in Resource Manager and properties of some Resource Providers. Azure Policy doesn't restrict actions (also called operations). Azure Policy ensures that resource state is compliant to your business rules without concern for who made the change or who has permission to make a change.
-
-Azure RBAC focuses on managing [user actions](https://docs.microsoft.com/azure/role-based-access-control/resource-provider-operations) at different scopes. If control of an action is required, then Azure RBAC is the correct tool to use. Even if an individual has access to perform an action, if the result is a non-compliant resource, Azure Policy still blocks the create or update.
-
-### IP-based Blocking
-With the location condition in Conditional Access, you can control access to your cloud apps based on the network location of a user. The location condition is commonly used to block access from countries/regions where your organization knows traffic should not come from. More information about the location condition in Conditional Access can be found in the article, [What is the location condition in Azure Active Directory Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/location-condition)
-
 ## Response
 Microsoft has all the tooling to provide immediate support and assistance.  
 
