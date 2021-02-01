@@ -2,7 +2,7 @@
 title: Microsoft Store Access
 author: rsameser
 ms.author: riameser
-ms.date: 1/30/2021
+ms.date: 1/31/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -14,6 +14,7 @@ keywords: Branding, Microsoft Store Access
 You have the option to decide how much access you would like your users to have when it comes to opening the Microsoft Store on Windows 10 IoT Enterprise. Access to the Microsoft store can be blocked or modified achieve a desired customer experience or meet an organization's policy. You can use AppLocker or Group Policy to configure access to Microsoft Store.
 
 > [!NOTE]
+>
 > The [Long-Term-Servicing Channel (LTSC)](https://docs.microsoft.com/windows/deployment/update/waas-overview#long-term-servicing-channel) has the store service for updating preinstalled apps, but does not include the Store UI for browsing apps. The [Semi-Annual Channel (SAC)](https://docs.microsoft.com/windows/deployment/update/waas-overview#semi-annual-channel) has both the store service and UI.
 
 
@@ -93,7 +94,7 @@ There is also a setting for configuring how often the store updates apps and tha
 
 2. Navigate to **Computer Configuration** > **Administrative Templates** > **Windows Components** > **Store**
 
-3. Double click **Turn off Automatic Download and Install of Updates** policy to edit it.
+3. Double-click **Turn off Automatic Download and Install of Updates** policy to edit it.
 
 4. Select **Turn off Automatic Download and Install of updates** policy to edit it.
 
