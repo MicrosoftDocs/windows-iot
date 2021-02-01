@@ -5,7 +5,7 @@
   items: 
   - name: Requirements
     href: Hardware-Guidance/Hardware_Requirements.md
-  - name: SoCs and custom boards
+  - name: SoCs and Custom Boards
     href: Hardware-Guidance/SoCs.md
 - name: Quickstarts
   expanded: false 

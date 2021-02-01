@@ -2,7 +2,7 @@
 title: Multi-App Kiosk
 author: rsameser
 ms.author: riameser
-ms.date: 11/09/2020
+ms.date: 1/31/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -22,8 +22,8 @@ A multi-app kiosk is appropriate for devices that are shared by multiple people.
 * [Configure a kiosk in Microsoft Intune](https://docs.microsoft.com/windows/configuration/lock-down-windows-10-to-specific-apps#configure-a-kiosk-in-microsoft-intune)
 * [Configure a kiosk using a provisioning package](https://docs.microsoft.com/windows/configuration/lock-down-windows-10-to-specific-apps#configure-a-kiosk-using-a-provisioning-package)
 
-
 > [!NOTE]
+>
 > When you configure a multi-app kiosk, [specific policies](https://docs.microsoft.com/windows/configuration/kiosk-policies) are enforced that will affect all non-administrator users on the device.
 
 ## Additional Resources
