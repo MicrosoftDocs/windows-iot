@@ -37,5 +37,5 @@ There are multiple ways to configure Unbranded Boot. Use the method that is appr
 
 ## Additional Resources
 * [Replace the startup logo](https://docs.microsoft.com/windows-hardware/customize/enterprise/unbranded-boot#replace-the-startup-logo)
-* [Configure Components and Settings in an Answer File](../wsim/configure-components-and-settings-in-an-answer-file.md).
+* [Configure Components and Settings in an Answer File](https://docs.microsoft.com/windows-hardware/customize/desktop/wsim/configure-components-and-settings-in-an-answer-file).
 * [DisplayDisabled](https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-embedded-bootexp-displaydisabled)
