@@ -21,7 +21,7 @@ This [list](https://docs.microsoft.com/windows/privacy/manage-connections-from-w
 
 >[!TIP]
 >
-> Microsoft strongly recommends customers to not turn off all network connections, **unless absolutely necessary** as crucial security patches and updates may be missed, leaving devices vulnerable. Instead it is recommended customers manage their network service controls and pick and choose which connections (if any) to disable.
+> Microsoft strongly recommends customers to not turn off all network connections **unless absolutely necessary** as crucial security patches and updates may be missed, leaving devices vulnerable. Instead it is recommended customers manage their network service controls and pick and choose which connections (if any) to disable.
 
 
 ## Additional Resources

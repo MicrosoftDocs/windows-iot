@@ -2,13 +2,14 @@
 title: On-screen Keyboard
 author: rsameser
 ms.author: riameser
-ms.date: 1/30/2021
+ms.date: 1/31/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
 description: Learn about the on-screen keyboard features in Windows 10 IoT Enterprise.
 keywords: IoT Enterprise, Networking
 ---
+
 # On-screen keyboard
 Windows 10 IoT Enterprise, provides developers with many on-screen keyboard features to enhance the user-experience.
 
@@ -106,15 +107,15 @@ During development, you can use [PowerShell](/windows/iot-core/connect-your-devi
 
 > [!NOTE]
 > Most of the registry settings documented here will take effect while the on-screen keyboard is visible.
-> This allows you during development to easily try different combinatations of settings values,
+> This allows you during development to easily try different combinations of settings values,
 > immediately seeing the resulting changes in real time. If a setting does not take effect immediately,
 > you will need to reboot the device in order to see the changes to the keyboard UI.
 
 ### Keyboard Height
 
-By default, the touch keyboard will use the lower 45% of the screen's height. This may appear too large or small on your device, depending on its size and resolution. You can adjust the height up to a maximum of two-thirds the height of the screen. Any value not in range will be clamped into range. Because this is specified as a floating point value, it allows for pixel-level precision. Simply apply the following formula to calculate the percentage:
+By default, the touch keyboard will use the lower 45% of the screen's height. This may appear too large or small on your device, depending on its size and resolution. You can adjust the height up to a maximum of two-thirds the height of the screen. Any value not in range will be clamped into range. Because this is specified as a floating point value, it allows for pixel-level precision.
 
-`percentage = (100 * <desired_pixel_height>) / <screen_height>`
+Apply the following formula to calculate the percentage: `percentage = (100 * <desired_pixel_height>) / <screen_height>`
 
 As an example, to change the height to 56.783%, you would set the following registry value:
 ```console

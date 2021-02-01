@@ -2,7 +2,7 @@
 title: Security
 author: rsameser
 ms.author: riameser
-ms.date: 1/29/2020
+ms.date: 1/31/2020
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -14,14 +14,14 @@ keywords: IoT Enterprise, Security
 Windows 10 IoT Enterprise comes with a host of [security offerings](https://docs.microsoft.com/windows/whats-new/ltsc/whats-new-windows-10-2019#security) that you can leverage to best fit your Windows 10 IoT Enterprise solution.
 
 ## Microsoft Security Response Center
-The world is more connected today than it has ever been. Technology is wound deep into our lives and has become part of our routine. With great advances we have also seen a greater dynamic playing out between threat actors and the defenders. The [Microsoft Security Response Center (MSRC)](https://www.microsoft.com/msrc?rtc=1) is part of the defender community and on the front line of security response evolution. For over twenty years MSRC has been working to improve security for our customers, learning from both successes and failures. Time has only reasserted MSRC's commitment to better protect customers and the broader ecosystem.
+The world is more connected today than it has ever been. Technology is wound deep into our lives and has become part of our routine. With great advances, we have also seen a greater dynamic playing out between threat actors and the defenders. The [Microsoft Security Response Center (MSRC)](https://www.microsoft.com/msrc?rtc=1) is part of the defender community and on the front line of security response evolution. For over twenty years MSRC has been working to improve security for our customers, learning from both successes and failures. Time has only reasserted MSRC's commitment to better protect customers and the broader ecosystem.
 
 MSRC's mission is to protect customers from being harmed by security vulnerabilities in Microsoft's products and services. By building your solution with Windows 10 IoT Enterprise, you have Microsoft Security Response Center's commitment towards security. Please review their [Security Update Guide](https://msrc.microsoft.com/update-guide/) to ensure your devices are up-to-date and secured.
 
 ## Comprehensive Security Features
 Windows 10 IoT Enterprise, brings Enterprise security to your IoT devices.
 
-Windows 10 IoT Enterprise is built on a 5-point comprehensive security platform:
+Windows 10 IoT Enterprise is built on a five-point comprehensive security platform:
 1. [Device protection](#device-protection)
 2. [Threat Resistance](#threat-resistance)
 3. [Data Protection in Motion](#data-protection-in-motion)
@@ -50,9 +50,9 @@ For information on how the secure boot process works included Trusted Boot and M
 ### BitLocker​
 Wherever confidential data is stored, it must be protected against unauthorized access. Windows has a long history of providing at-rest data-protection solutions that guard against nefarious attackers, beginning with the Encrypting File System in the Windows 2000 operating system. More recently, [BitLocker](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10) has provided encryption for full drives and portable drives. Windows consistently improves data protection by improving existing options and by providing new strategies. To learn more, see [BitLocker Overview and Requirements FAQ](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview-and-requirements-faq)
 
-## Threat Resistance
-We provide a security tools set for Windows to protected a wide range of threats against execution of unauthorized code and scripts, network and malware attacks. Effectively identifying, assessing, and remediating endpoint weaknesses is pivotal in running a healthy security program and reducing organizational risk. Threat and vulnerability management serves as an infrastructure for reducing organizational exposure, hardening endpoint surface area, and increasing organizational resilience.
 
+## Threat Resistance
+We provide a security tools set for Windows to protect a wide range of threats against execution of unauthorized code and scripts, network, and malware attacks. Effectively identifying, assessing, and remediating endpoint weaknesses is pivotal in running a healthy security program and reducing organizational risk. Threat and vulnerability management serves as an infrastructure for reducing organizational exposure, hardening endpoint surface area, and increasing organizational resilience.
 
 ### Windows Defender Firewall
 [Windows Defender Firewall](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security) is a stateful host firewall that helps secure the device by allowing you to create rules that determine which network traffic is permitted to enter the device from the network and which network traffic the device is allowed to send to the network. Windows Defender Firewall also supports Internet Protocol security (IPsec), which you can use to require authentication from any device that is attempting to communicate with your device. When authentication is required, devices that cannot be authenticated as a trusted device cannot communicate with your device. You can also use IPsec to require that certain network traffic is encrypted to prevent it from being read by network packet analyzers that could be attached to the network by a malicious user.
@@ -91,7 +91,7 @@ With the location condition in Conditional Access, you can control access to you
 Microsoft has all the tooling to provide immediate support and assistance.  
 
 ### Device Management
-Microsoft provides a whole suite of [device management](../Device-Management/Device-Management-Overview.md) solutions to keep your devices safe and monitor activity at all times. Managing a device is now easier than ever on Windows 10 IoT Enterprise. There are multiple options that your organization can choose from in order to best manage your devices, such as Microsoft Intune, Endpoint Manager and 3rd party OMA-DM based management tools. OEMs can also select Azure Device Agent, which leaves it up to their customers to select the device management solution that fits them best.  
+Microsoft provides a whole suite of [device management](../Device-Management/Device-Management-Overview.md) solutions to keep your devices safe and monitor activity at all times. Managing a device is now easier than ever on Windows 10 IoT Enterprise. There are multiple options that your organization can choose from in order to best manage your devices, such as Microsoft Intune, Endpoint Manager and third-party OMA-DM based management tools. OEMs can also select Azure Device Agent, which leaves it up to their customers to select the device management solution that fits them best.  
 
 ### Device Recovery
 On the off chance something does go wrong, The Microsoft [Support and Recovery Assistant](https://www.microsoft.com/download/100607) works by running tests to figure out what's wrong and offers the best solution for the identified problem. It can currently fix Office, Office 365, Outlook, and Windows problems. If the Microsoft Support and Recovery Assistant can't fix a problem for you, it will suggest next steps and help you get in touch with Microsoft support.
