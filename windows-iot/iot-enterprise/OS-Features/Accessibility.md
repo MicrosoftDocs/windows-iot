@@ -2,7 +2,7 @@
 title: Accessibility for Windows 10 IoT
 author: rsameser
 ms.author: riameser
-ms.date: 1/31/2021
+ms.date: 2/1/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -18,6 +18,18 @@ Accessibility enables people of all abilities to intuitively and efficiently lev
 It is essential that accessibility is considered during the design phase of the product as this will avoid many potential accessibility-related bugs. For example, during the design phase, consideration around the colors used and the size of text (and how those might be customized by the user) can help a great many customers. And for devices with a keyboard, during the design phase, consideration around how the keyboard can be used to leverage all the functionality in the product, and also how to access the most frequently accessed functionality with the fewest number of keystrokes.  
 
 For the developer, from an implementation perspective the good news is that Windows as a platform already does a lot of work to provide some level of accessibility by default. For example, standard controls are programmatically accessible by default through the UI Automation (UIA) API. If you choose not to use a standard control and instead build custom UI, the work required to make the UI accessibility can be much more time-consuming than simply building apps using standard controls provided by the platform.
+
+## Accessibility Features
+Microsoft is dedicated to making its products and services accessible and usable for everyone.
+
+Windows 10 IoT Enterprise includes accessibility features that can be integrated to further support where [vision](https://docs.microsoft.com/windows/configuration/windows-10-accessibility-for-itpros#vision), [hearing](https://docs.microsoft.com/windows/configuration/windows-10-accessibility-for-itpros#hearing), [physical](https://docs.microsoft.com/windows/configuration/windows-10-accessibility-for-itpros#physical), [cognition](https://docs.microsoft.com/windows/configuration/windows-10-accessibility-for-itpros#cognition), along with [assistive technology](https://docs.microsoft.com/windows/configuration/windows-10-accessibility-for-itpros#assistive-technology-devices-built-into-windows-10) is needed. This additional support makes it easier to customize devices and gives users with different abilities options to improve their experience with Windows.
+
+To learn more about accessibility, please read [Accessibility Information for IT Professionals](https://docs.microsoft.com/windows/configuration/windows-10-accessibility-for-itpros), and [Windows Accessibility](https://www.microsoft.com/Accessibility/windows?rtc=1&activetab=pivot_1%3aprimaryr2)
+
+### General Recommendations
+* **Be aware of Ease of Access settings** – Understand how these devices are being used. Help people in your organization learn how they can customize Windows 10.
+* **Do not block settings** – Avoid using Group Policy or MDM settings that override Ease of Access settings.
+* **Encourage choice** – Allow for device customization based upon needs. That might mean installing an add-on for a browser, or a non-Microsoft assistive technology.
 
 ## Accessibility testing
 Below are tools we recommend using while building your application. While these tools will help when it comes to auditing your own designs, please note that you will still need to account for features such as high contrast and text requirements.

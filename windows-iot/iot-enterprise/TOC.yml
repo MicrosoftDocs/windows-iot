@@ -62,8 +62,6 @@
     href: Device-Management/Device-Management-Overview.md
   - name: Mobile Device Management
     href: Device-Management/Mobile-Device-Management.md
-  - name: Application Updates 
-    href: Device-Management/App-Updates.md
 - name: IoT Device Features
   expanded: false 
   items:
@@ -77,12 +75,16 @@
     href: OS-Features/Embedded-Mode.md
   - name: On-Screen Keyboard
     href: OS-Features/On-Screen-Keyboard.md
-  - name: Accessibility & Privacy
-    href: OS-Features/Accessibility-Privacy.md
+  - name: Accessibility
+    href: OS-Features/Accessibility.md
+  - name: Privacy
+    href: OS-Features/Privacy.md
   - name: Security
     href: OS-Features/Security.md
-  - name: Updates
+  - name: OS Updates
     href: OS-Features/Updates.md
+  - name: App Updates 
+    href: Device-Management/App-Updates.md
 - name: Commercialization
   expanded: false
   items: 
@@ -92,8 +94,6 @@
     href: Commercialization/Manufacturing-Guide.md
 - name: Azure IoT Edge for Linux on Windows (EFLOW) 
   href: EFLOW.md
-- name: Accessibility in Windows IoT 
-  href: Accessibility.md
 - name: Features by Release
   href: Features.md
 - name: Frequently Asked Questions
