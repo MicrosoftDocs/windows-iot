@@ -2,7 +2,7 @@
 title: Custom Logon
 author: rsameser
 ms.author: riameser
-ms.date: 1/27/2021
+ms.date: 1/31/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -14,7 +14,7 @@ keywords: Branding, Custom Logon
 Custom Logon features allow you to take control of the welcome and shutdown screens for your device.
 
 ## Feature Benefits
-By using custom logon, you can suppress all elements of the Welcome screen UI and provide a custom logon UI for your users. You can also suppress the Blocked Shutdown Resolver (BSDR) screen and automatically end applications while the OS waits for applications to close before a shutdown.
+By using Custom Logon, you can suppress all elements of the Welcome screen UI and provide a custom logon UI for your users. You can also suppress the Blocked Shutdown Resolver (BSDR) screen and automatically end applications while the OS waits for applications to close before a shutdown.
 
 Custom Logon settings do not modify the credential behavior of **Winlogon**, so you can use any credential provider that is compatible with Windows 10 to provide a custom sign-in experience for your device.
 

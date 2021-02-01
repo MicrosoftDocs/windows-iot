@@ -33,6 +33,7 @@ There are multiple ways to configure Unbranded Boot. Use the method that is appr
 * [Microsoft-Windows-Embedded-BootExp](https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-embedded-bootexp)
 
 >[!TIP]
+>
 > To ensure that there is no 'Blue Screen of Death' if Windows encounters an error it cannot recover from, make sure enable the **DisplayDisabled** setting. Once you enable this setting, it configures the device to display a blank screen when the OS encounters an error that it cannot recover from.
 
 ## Additional Resources

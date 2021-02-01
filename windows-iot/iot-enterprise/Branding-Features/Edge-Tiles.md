@@ -2,7 +2,7 @@
 title: Secondary Tiles
 author: rsameser
 ms.author: riameser
-ms.date: 1/30/2020
+ms.date: 1/31/2020
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -13,7 +13,7 @@ keywords: Branding, Edge Tiles
 # Secondary Tiles
 Secondary tiles allow users to pin specific content and deep links from your app onto their Start menu, providing easy future access to the content within your app.
 
-By adding secondary tiles to your app, you help the user re-engage quickly and efficiently with your app, encouraging them to return more often, thanks to the easy access that secondary tiles provides.
+By adding secondary tiles to your app, you help the user re-engage quickly and efficiently with your app, encouraging them to return more often, thanks to the easy access that secondary tiles provide.
 
 ![Screenshot of secondary tiles](media/secondarytiles.png)
 
