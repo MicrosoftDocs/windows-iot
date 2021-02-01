@@ -25,10 +25,10 @@ If you would like to purchase system integration support from Microsoft, please 
  * [Search for MVP Near You](https://mvp.microsoft.com/)
 
 ## Developer Community
-* [Microsoft Developer Network (MSDN)](https://social.msdn.microsoft.com/Forums/en-US/home?forum=WindowsIoT)
-* [Stack Overflow](https://stackoverflow.com/questions/tagged/windows-10-iot-enterprise)
-* [Microsoft Windows 10 IoT Tech Community](https://techcommunity.microsoft.com/t5/windows-10-iot/bd-p/Windows10IoT)
 * [Channel9](https://channel9.msdn.com/)
 * [Windows Blogs](https://blogs.windows.com/windowsdeveloper/)
+* [Stack Overflow](https://stackoverflow.com/questions/tagged/windows-10-iot-enterprise)
 * [Microsoft Developer Blogs](https://devblogs.microsoft.com/)
+* [Microsoft Developer Network (MSDN)](https://social.msdn.microsoft.com/Forums/en-US/home?forum=WindowsIoT)
+* [Microsoft Windows 10 IoT Tech Community](https://techcommunity.microsoft.com/t5/windows-10-iot/bd-p/Windows10IoT)
 * [Microsoft IoT Developers YouTube Channel](https://www.youtube.com/channel/UCL7wy-iy_V76xxPnrIzGOZQ)
