@@ -11,7 +11,7 @@ keywords: IoT Enterprise, Manufacturing Guide
 ---
 
 # Windows 10 IoT Enterprise Manufacturing Guide
-We offer a [Manufacturing Guide](https://docs.microsoft.com/windows-hardware/manufacture/desktop/iot-ent-overview) to help you walk through how to build, set-up and commercialize your Windows 10 IoT Enterprise devices.
+We offer a [Manufacturing Guide](https://docs.microsoft.com/windows-hardware/manufacture/desktop/iot-ent-overview) to help you walk through how to build, set-up, and commercialize your Windows 10 IoT Enterprise devices.
 
 ## Labs
 In addition to our documentation set, we have a series of labs that you can follow, which cover how to build, customize, and deploy a Windows 10 IoT Enterprise image.
