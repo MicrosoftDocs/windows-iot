@@ -87,7 +87,7 @@ In case something is to go wrong with your device, Windows 10 IoT Enterprise sup
 
 **Option #2:** Reimage the device back to factory settings.
 
-*[Windows IoT Device Health Attestation](#windows-device-health-attestation​) enables the operator to assess if a device is booted to a trusted and compliant state, and take appropriate remedial actions if necessary through Azure IoT Hub Device Management.*
+*[Windows IoT Device Health Attestation](#windows-device-health-attestation) enables the operator to assess if a device is booted to a trusted and compliant state, and take appropriate remedial actions if necessary through Azure IoT Hub Device Management.*
 
 
 ## Additional resources
