@@ -16,7 +16,7 @@ Windows 10 IoT Enterprise allows you to build fixed purpose devices such as ATM 
 Kiosk configurations are based upon either [assigned access](https://docs.microsoft.com/windows/configuration/guidelines-for-assigned-access-app) or [shell launcher](./Shell-Launcher.md). There are several kiosk configuration methods that you can choose from, depending on your answers to the following questions.
 
 ## Which type of app will your kiosk run?
-Your kiosk can run a Universal Windows Platform (UWP) app or a Windows desktop application. For [digital signage](https://docs.microsoft.com/windows/configuration/setup-digital-signage), select a digital sign player as your kiosk app. Check out the [guidelines for kiosk apps](https://docs.microsoft.com/windows/configuration/guidelines-for-assigned-access-app).
+Your kiosk can run a Universal Windows Platform (UWP) app or a Windows desktop application. For [digital signage](https://docs.microsoft.com/windows/configuration/setup-digital-signage), select a digital sign player as your kiosk app. Check out the [Guidelines for Kiosk Apps](https://docs.microsoft.com/windows/configuration/guidelines-for-assigned-access-app).
 
 ## Which type of kiosk do you need?
 If you want your kiosk to run a single app for anyone to see or use, consider an [assigned-access single-app kiosk](./Single-App-Kiosk.md) that runs either a [Universal Windows Platform (UWP) app](https://docs.microsoft.com/windows/configuration/kiosk-methods#uwp) or a [Windows desktop application](https://docs.microsoft.com/windows/configuration/kiosk-methods#classic).
