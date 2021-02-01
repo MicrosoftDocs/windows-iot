@@ -18,7 +18,7 @@ Windows Update Advantage:
 - Utilize the Microsoft proven and scalable infrastructure
 - Updates can be easily managed and controlled by device owners
 
-Windows 10 IoT Enterprise gives the administrator the power to manage and control updates as per your device and organization requirements.
+Windows 10 IoT Enterprise gives the administrator the power to manage and control updates as per device and organization requirements.
 
 ## Control Windows Updates
 One of the most common requests from device partners is centered around controlling automatic updates on Windows 10 IoT devices. The nature of IoT devices is such that unexpected disruptions, through something like an unplanned update, can create a bad device experience.
@@ -28,7 +28,7 @@ Questions that you should ask when considering how to control Windows updates:
 * How are updates validated prior to deployment?
 * What is the update user experience on the device itself?
 
-If you have a device where disruption of the user experience isn't acceptable, you should consider limiting updates to only certain hours, disabling automatic updates, or deploying updates either manually or through a controlled 3rd party solution.
+If you have a device where disruption of the user experience isn't acceptable, you should consider limiting updates to only certain hours, disabling automatic updates, or deploying updates either manually or through a controlled third-party solution.
 
 ## Limit reboots from updates
 You can use the Active Hours Group Policy, MDM, or registry setting to limit updates to only certain hours.

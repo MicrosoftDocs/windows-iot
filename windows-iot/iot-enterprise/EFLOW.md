@@ -27,7 +27,7 @@ EFLOW enables customers for the first time to run production Linux-based cloud-n
 
 EFLOW provides the ability to deploy Linux IoT Edge modules onto a Windows IoT device. This opens a world of capabilities for commercial IoT as well as AI/ML with the availability of pre-built modules from the Azure Marketplace such as Live Video Analytics, SQL Edge, and OPC Publisher as a few examples.
 
-As a developer, you may also choose to implement your own custom modules using the Linux distribution of your choice to address specific business requirements. Running Linux modules on Windows IoT becomes a seamless of your solution.
+As a developer, you may also choose to implement your own custom modules using the Linux distribution of your choice to address specific business requirements. Running Linux modules on Windows IoT becomes a seamless part of your solution.
 
 In addition, Windows applications can easily interact with Linux modules running on the same physical device. A Windows process that provides UI or accesses cameras, sensors, or other hardware can seamlessly communicate with business logic or ML inferencing provided by a Linux module.
 

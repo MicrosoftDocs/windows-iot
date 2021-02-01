@@ -2,7 +2,7 @@
 title: Accessibility and Privacy
 author: rsameser
 ms.author: riameser
-ms.date: 11/1/2020
+ms.date: 1/31/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
