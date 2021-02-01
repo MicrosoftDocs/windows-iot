@@ -17,12 +17,9 @@ This article will give you an overview of the product and guide you through how 
 Windows 10 IoT Enterprise is a full version of Windows 10 that delivers enterprise manageability and security to IoT solutions. Windows 10 IoT Enterprise shares all the benefits of the worldwide Windows ecosystem. It is a binary equivalent to Windows 10 Enterprise, so you can use the same familiar development and management tools as client PCs and laptops. However, when it comes to *licensing and distribution*, the desktop version and IoT versions differ.
 
 
-
 > [!NOTE]
 >
-> Windows 10 IoT Enterprise offers both LTSC and SAC options, and OEMs can choose the one they need for their devices.
->
-> For more information on how to reach out to a [Distributor](https://aka.ms/IoTDistributorList) and how to purchase a license, please review [Licensing & Usage](./Commercialization/Licensing.md).
+> Windows 10 IoT Enterprise offers *both* LTSC and SAC options, and OEMs can choose the one they need for their devices. For more information on how to reach out to a [Windows IoT Distributor](https://aka.ms/IoTDistributorList) and how to purchase a license, please review [Licensing & Usage](./Commercialization/Licensing.md).
 
 
 ## Why Do Customer Choose Windows 10 IoT Enterprise?
