@@ -2,7 +2,7 @@
 title: Application Control
 author: rsameser
 ms.author: riameser
-ms.date: 1/27/2020
+ms.date: 1/31/2020
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -11,7 +11,7 @@ keywords: Lockdown, AppLocker, Windows Defender
 ---
 
 # Application Control
-Application control is a crucial scenario that enables an organization to create a lockdown experience. Windows 10 IoT Enterprise, includes two technologies that can be used for application control to meet your organization's specific scenarios and requirements: [Windows Defender Application Control (WDAC) and AppLocker](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/wdac-and-applocker-overview).
+Application control is a crucial scenario that enables an organization to create a lockdown experience. Windows 10 IoT Enterprise, includes two technologies, [Windows Defender Application Control (WDAC) and AppLocker](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/wdac-and-applocker-overview), which can be used for application control to meet your organization's specific scenarios and requirements. 
 
 > [!NOTE]
 > When it comes to [choosing between WDAC or AppLocker](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/wdac-and-applocker-overview#choose-when-to-use-wdac-or-applocker) it is generally recommended that customers who are able to implement application control using WDAC rather than AppLocker, do so. WDAC is undergoing continual improvements and will be getting added support from Microsoft management platforms. Although AppLocker will continue to receive security fixes, it will not undergo new feature improvements.
