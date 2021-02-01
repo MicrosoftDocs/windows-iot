@@ -17,9 +17,7 @@ If your device is being use for a dedicated purpose, it may make sense to ensure
 Keyboard Filter has the following features:
 * It supports hardware keyboards, the standard Windows on-screen keyboard, and the touch keyboard (TabTip.exe).
 * It also suppresses key combinations even when they come from multiple keyboards.
-
     *For example, if a user presses the Ctrl key and the Alt key on a hardware keyboard, while at the same time pressing Delete on a software keyboard, Keyboard Filter can still detect and suppress the Ctrl+Alt+Delete functionality.*
-
 * Supports numeric keypads and keys designed to access media player and browser functionality.
 * Can configure a key to breakout of a locked down user session to return to the Welcome screen.
 * Automatically handles dynamic layout changes.
