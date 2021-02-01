@@ -18,7 +18,7 @@ Keyboard Filter has the following features:
 * It supports hardware keyboards, the standard Windows on-screen keyboard, and the touch keyboard (TabTip.exe).
 * It also suppresses key combinations even when they come from multiple keyboards.
 
-*For example, if a user presses the Ctrl key and the Alt key on a hardware keyboard, while at the same time pressing Delete on a software keyboard, Keyboard Filter can still detect and suppress the Ctrl+Alt+Delete functionality.*
+    *For example, if a user presses the Ctrl key and the Alt key on a hardware keyboard, while at the same time pressing Delete on a software keyboard, Keyboard Filter can still detect and suppress the Ctrl+Alt+Delete functionality.*
 
 * Supports numeric keypads and keys designed to access media player and browser functionality.
 * Can configure a key to breakout of a locked down user session to return to the Welcome screen.
@@ -30,10 +30,10 @@ Keyboard Filter has the following features:
 
 ## Turn on Keyboard Filter
 There are multiple ways to turn on Keyboard Filter:
-* Turn on Keyboard Filter by using [Control Panel](https://docs.microsoft.com/windows-hardware/customize/enterprise/keyboardfilter#turn-on-keyboard-filter-by-using-control-panel)
-* Configure Keyboard using [Unattend](https://docs.microsoft.com/windows-hardware/customize/enterprise/keyboardfilter#configure-keyboard-using-unattend)
-* Turn on and configure Keyboard Filter using [Windows Configuration Designer](https://docs.microsoft.com/windows-hardware/customize/enterprise/keyboardfilter#turn-on-and-configure-keyboard-filter-using-windows-configuration-designer)
-* Turn on and configure Keyboard Filter by using [DISM](https://docs.microsoft.com/windows-hardware/customize/enterprise/keyboardfilter#turn-on-and-configure-keyboard-filter-by-using-dism)
+* [Control Panel](https://docs.microsoft.com/windows-hardware/customize/enterprise/keyboardfilter#turn-on-keyboard-filter-by-using-control-panel)
+* [Unattend](https://docs.microsoft.com/windows-hardware/customize/enterprise/keyboardfilter#configure-keyboard-using-unattend)
+* [Windows Configuration Designer](https://docs.microsoft.com/windows-hardware/customize/enterprise/keyboardfilter#turn-on-and-configure-keyboard-filter-using-windows-configuration-designer)
+* [DISM](https://docs.microsoft.com/windows-hardware/customize/enterprise/keyboardfilter#turn-on-and-configure-keyboard-filter-by-using-dism)
 
 > [!NOTE]
 >

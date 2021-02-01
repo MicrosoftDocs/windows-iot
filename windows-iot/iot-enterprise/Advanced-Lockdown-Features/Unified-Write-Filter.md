@@ -12,7 +12,7 @@ keywords: Lockdown, Unified Write Filter
 # Unified Write Filter
 The [Unified Write Filter (UWF)](https://docs.microsoft.com/windows-hardware/customize/enterprise/unified-write-filter#turn-on-and-configure-uwf) is a Windows 10 IoT Enterprise feature that helps to protect your drives by intercepting and redirecting any writes to the drive (app installations, settings changes, saved data) to a virtual overlay. The virtual overlay is a temporary location that is usually cleared during a reboot or when a guest user logs off.
 
-This is a great feature because it provides a clean experience for thin clients and workspaces that have frequent guests, like school, library or hotel computers. This way, guests can work, change settings, and install software, and after the device reboots, the next guest receives a clean experience. This also increases reliability for kiosks, IoT-embedded devices, or other devices where new apps are not expected to be frequently added. It can be used to help reduce wear on solid-state drives and other write-sensitive media.
+This is a useful feature because it provides a clean experience for thin clients and workspaces that have frequent guests, like school, library or hotel computers. This way, guests can work, change settings, and install software, and after the device reboots, the next guest receives a clean experience. This also increases reliability for kiosks, IoT-embedded devices, or other devices where new apps are not expected to be frequently added. It can be used to help reduce wear on solid-state drives and other write-sensitive media.
 
 ## Install the Unified Write Filter
 The Unified Write Filter (UWF) is an optional Windows feature. So in order to use UWF, you'll first need to install the feature.
