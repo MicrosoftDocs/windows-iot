@@ -22,11 +22,11 @@ MSRC's mission is to protect customers from being harmed by security vulnerabili
 Windows 10 IoT Enterprise, brings Enterprise security to your IoT devices.
 
 Windows 10 IoT Enterprise is built on a five-point comprehensive security platform:
-1. [Device protection](#1.-device-protection)
-2. [Threat Resistance](#2.-threat-resistance)
-3. [Data Protection in Motion](#3.-data-protection-in-motion)
-4. [Cloud Security](#4.-cloud-security)
-5. [Response](#5.-response)
+1. [Device protection](#1-device-protection)
+2. [Threat Resistance](#2-threat-resistance)
+3. [Data Protection in Motion](#3-data-protection-in-motion)
+4. [Cloud Security](#4-cloud-security)
+5. [Response](#5-response)
 
 ## 1. Device Protection
 Windows Security provides the following built-in security options to help protect your device from malicious software attacks. Like they say, a strong defense, is a strong offense.
