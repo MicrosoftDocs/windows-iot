@@ -2,7 +2,7 @@
 title: Keyboard Filter
 author: rsameser
 ms.author: riameser
-ms.date: 1/29/2020
+ms.date: 1/31/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -19,6 +19,7 @@ Keyboard Filter has the following features:
 * It also suppresses key combinations even when they come from multiple keyboards.
 
 *For example, if a user presses the Ctrl key and the Alt key on a hardware keyboard, while at the same time pressing Delete on a software keyboard, Keyboard Filter can still detect and suppress the Ctrl+Alt+Delete functionality.*
+
 * Supports numeric keypads and keys designed to access media player and browser functionality.
 * Can configure a key to breakout of a locked down user session to return to the Welcome screen.
 * Automatically handles dynamic layout changes.
@@ -35,6 +36,7 @@ There are multiple ways to turn on Keyboard Filter:
 * Turn on and configure Keyboard Filter by using [DISM](https://docs.microsoft.com/windows-hardware/customize/enterprise/keyboardfilter#turn-on-and-configure-keyboard-filter-by-using-dism)
 
 > [!NOTE]
+>
 > Turning on an off Keyboard Filter requires that you restart your device. Keyboard Filter is automatically enabled after the restart.
 
 ## Additional Resources

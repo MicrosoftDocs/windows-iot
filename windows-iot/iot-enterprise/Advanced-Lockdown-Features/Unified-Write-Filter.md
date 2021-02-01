@@ -2,7 +2,7 @@
 title: Unified Write Filter
 author: rsameser
 ms.author: riameser
-ms.date: 11/19/2020
+ms.date: 1/31/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -23,6 +23,7 @@ The Unified Write Filter (UWF) is an optional Windows feature. So in order to us
 * [Install the UWF feature by using Windows Management Instrumentation (WMI)](https://docs.microsoft.com/windows-hardware/customize/enterprise/uwf-turnonuwf#install-the-uwf-feature-by-using-windows-management-instrumentation-wmi)
 
 Next, you'll enable (and optionally configure) the feature.
+
 The first time you enable UWF on your device, UWF makes the following changes to your system to improve the performance of UWF:
 * Paging files are disabled.
 * System restore is disabled.
@@ -35,6 +36,7 @@ The first time you enable UWF on your device, UWF makes the following changes to
 After UWF is enabled, you can select a drive to protect and start using UWF.
 
 > [!TIP]
+>
 > You can install UWF for running PCs and devices, prepare it for customized Windows images, or manage it remotely using CSP or WMI.
 
 ## Additional Resources
