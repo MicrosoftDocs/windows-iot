@@ -2,7 +2,7 @@
 title: Mobile Device Management
 author: rsameser
 ms.author: riameser
-ms.date: 11/09/2020
+ms.date: 1/31/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -20,14 +20,14 @@ Check out [What's new in mobile device enrollment and management](https://docs.m
 
 ## Mobile Device Management Policies
 The MDM security baseline includes policies that cover the following areas:
-* Microsoft inbox security technology (not deprecated) such as BitLocker, and Windows Defender SmartScreen. 
+* Microsoft inbox security technology (not deprecated) such as BitLocker, and Windows Defender SmartScreen.
 * Restricting remote access to devices
 * Setting credential requirements for passwords and PINs
 * Restricting use of legacy technology
 * Legacy technology policies that offer alternative solutions with modern technology
 
 ## Learn about Migrating to Mobile Device Management
-When an organization wants to move to MDM to manage devices, they should prepare by analyzing their current Group Policy settings to see what they need to transition to MDM management. Microsoft created the [MDM Migration Analysis Tool (MMAT)](https://aka.ms/mmat/) to help. MMAT determines which Group Policies have been set for a target user or computer and then generates a report that lists the level of support for each policy settings in MDM equivalents. For more information, see [MMAT Instructions](https://github.com/WindowsDeviceManagement/MMAT/blob/master/MDM%20Migration%20Analysis%20Tool%20Instructions.pdf).
+When an organization wants to move to MDM to manage devices, they should prepare by analyzing their current Group Policy settings to see what they need to transition to MDM management. Microsoft created the [MDM Migration Analysis Tool (MMAT)](https://aka.ms/mmat/) to help. MMAT determines which Group Policies have been set for a target user or computer and then generates a report that lists the level of support for each policy setting in MDM equivalents. For more information, see [MMAT Instructions](https://github.com/WindowsDeviceManagement/MMAT/blob/master/MDM%20Migration%20Analysis%20Tool%20Instructions.pdf).
 
 ## Mobile Device Enrollment
 Mobile device enrollment is the first phase of enterprise management. The device is configured to communicate with the MDM server using security precautions during the enrollment process. The enrollment service verifies that only authenticated and authorized devices can be managed by their enterprise.

@@ -2,7 +2,7 @@
 title: Device Management Overview
 author: rsameser
 ms.author: riameser
-ms.date: 12/10/2020
+ms.date: 1/31/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -10,10 +10,11 @@ description: Learn about the Device Management feature of Windows 10 IoT Enterpr
 keywords: IoT Enterprise, Device Management, MDM, Intune, SCCM, Azure Device Twin, Endpoint Manager, Device Health
 ---
 # Device Management Overview
-Managing a device is now easier than ever on Windows 10 IoT Enterprise. There are multiple options that your organization can choose from in order to best manage your devices, such as Microsoft Intune, Endpoint Manager and 3rd party OMA-DM based management tools. OEMs can also select Azure Device Agent, which leaves it up to their customers to select the device management solution that fits them best.  
+Managing a device is now easier than ever on Windows 10 IoT Enterprise. There are multiple options that your organization can choose from in order to best manage your devices, such as Microsoft Intune, Endpoint Manager, and third-party OMA-DM based management tools. OEMs can also select Azure Device Agent, which leaves it up to their customers to select the device management solution that fits them best.  
 
 ## Mobile Device Management
 Windows 10 provides an enterprise management solution to help IT pros manage company security policies and business applications, while avoiding compromise of the users’ privacy on their personal devices. A built-in management component can communicate with the management server. Check out [Mobile Device Management](./Mobile-Device-Management.md) and [What's new in mobile device enrollment and management](https://docs.microsoft.com/windows/client-management/mdm/new-in-windows-mdm-enrollment-management#whatsnew10) to further understand the capabilities that are being offered.
+
 
 ### Microsoft Intune
 [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) is a cloud-based service that focuses on mobile device management (MDM) and mobile application management (MAM). You control how your organization’s devices are used and can configure specific policies to control applications. Intune is part of [Microsoft's Enterprise Mobility + Security (EMS) suite](https://www.microsoft.com/microsoft-365/enterprise-mobility-security?rtc=1). Intune integrates with Azure Active Directory (Azure AD) to control who has access, and what they can access. It also integrates with Azure Information Protection for data protection. Here's a [guide](https://docs.microsoft.com/windows/iot-core/manage-your-device/intunedeviceenrollment) on how to enroll your devices in Microsoft Intune.
@@ -32,9 +33,9 @@ The [Azure IoT Device Agent](https://docs.microsoft.com/windows/iot-core/manage-
 Azure IoT Device Agent provides a ready-to-build [open source solution](https://github.com/ms-iot/azure-client-tools/blob/master/docs/device-agent/device-agent.md) that:
 * Manages the device identity provisioning with IoT Hub.
 * Manages the cloud connection and its renewal.
-* Provides a plug-in model for platform components which allows easy onboarding to various Azure services. (This model includes discovery, initialization, error reporting, and state aggregation.)
+* Provides a plug-in model for platform components, which allows easy onboarding to various Azure services. (This model includes discovery, initialization, error reporting, and state aggregation.)
 * Comes with a set of ready-to-ship plug-ins for very commonly used platform components.
 
 
 ## Device Update Center
-[Device Update Center (DUC)](https://docs.microsoft.com/windows-hardware/service/iot/using-device-update-center) is available for IoT Core today. DUC is not really device management, but it is included in this list for completeness. DUC is update control which is staged before device management in the control chain. This means that you (or your customers) can still use device management if you choose DUC for upstream control. This service is often used in conjunction with [Azure Device Agent](https://github.com/ms-iot/azure-client-tools/blob/master/docs/device-agent/device-agent.md) by appliance device builders.
+[Device Update Center (DUC)](https://docs.microsoft.com/windows-hardware/service/iot/using-device-update-center) is available for IoT Core today. DUC is not really device management, but it is included in this list for completeness. DUC is update control that is staged before device management in the control chain. This means that you (or your customers) can still use device management if you choose DUC for upstream control. This service is often used with [Azure Device Agent](https://github.com/ms-iot/azure-client-tools/blob/master/docs/device-agent/device-agent.md) by appliance device builders.
