@@ -32,7 +32,7 @@ To get started, you can try the [Windows 10 IoT Enterprise 90 day Evaluation](ht
 If your board comes with instructions on how to deploy Windows 10 IoT Enterprise, follow those instructions. Otherwise, you can follow the labs provided in the [Windows 10 IoT Enterprise Manufacturing Guide](../Commercialization/Manufacturing-Guide.md).
 
 ## Step 4: Load an Application
-You can choose to port over your existing Windows applications or try out [UWP (Universal Windows Platform)](https://docs.microsoft.com/windows/uwp/get-started/universal-application-platform-guide) applications.
+You can choose to port over your existing Windows applications or try out [Universal Windows Platform (UWP)](https://docs.microsoft.com/windows/uwp/get-started/universal-application-platform-guide) applications.
 
 All UWP applications are designed to run on all Windows 10 API compatible platforms, including Windows 10 IoT Enterprise. UWP is one of many ways to create client applications for Windows. UWP apps use WinRT APIs to provide powerful UI and advanced asynchronous features that are ideal for internet-connected devices.
 
