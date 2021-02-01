@@ -28,7 +28,7 @@ Windows 10 IoT Enterprise is built on a five-point comprehensive security platfo
 4. [Cloud Security](#4.-cloud-security)
 5. [Response](#5.-response)
 
-##1.  Device Protection
+## 1. Device Protection
 Windows Security provides the following built-in security options to help protect your device from malicious software attacks. Like they say, a strong defense, is a strong offense.
 
 ### Trusted Platform Module (TPM)​
