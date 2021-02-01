@@ -2,7 +2,7 @@
 title: Kiosk Mode
 author: rsameser
 ms.author: riameser
-ms.date: 1/31/2021
+ms.date: 2/1/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -15,6 +15,11 @@ Windows 10 IoT Enterprise allows you to build fixed purpose devices such as ATM 
 
 Kiosk configurations are based upon either [assigned access](https://docs.microsoft.com/windows/configuration/guidelines-for-assigned-access-app) or [shell launcher](./Shell-Launcher.md). There are several kiosk configuration methods that you can choose from, depending on your answers to the following questions.
 
+> [!TIP]
+>
+> A benefit of using an assigned access kiosk mode is [these policies](https://docs.microsoft.com/windows/configuration/kiosk-policies) are automatically applied to the device to optimize the lock-down experience.
+
+
 ## Which type of app will your kiosk run?
 Your kiosk can run a Universal Windows Platform (UWP) app or a Windows desktop application. For [digital signage](https://docs.microsoft.com/windows/configuration/setup-digital-signage), select a digital sign player as your kiosk app. Check out the [Guidelines for Kiosk Apps](https://docs.microsoft.com/windows/configuration/guidelines-for-assigned-access-app).
 
@@ -25,6 +30,7 @@ For a kiosk that people can sign in to with their accounts or that runs more tha
 
 ## Which type of user account will be the kiosk account?
 The kiosk account can be a local standard user account, a domain account, or an Azure Active Directory (Azure AD) account, depending on the method that you use to configure the kiosk. If you want people to sign in and authenticate on the device, you should use an assigned access multi-app kiosk configuration. The assigned access single-app kiosk configuration doesn't require people to sign in to the device, although they can sign in to the kiosk app if you select an app that has a sign-in method.
+
 
 ## Kiosk capabilities for Windows 10 IoT Enterprise
 | Mode | Features | Description | Customer Usage  |

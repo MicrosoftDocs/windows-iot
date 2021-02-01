@@ -2,7 +2,7 @@
 title: Assigned access Single-App Kiosk
 author: rsameser
 ms.author: riameser
-ms.date: 1/31/2021
+ms.date: 2/1/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -17,8 +17,10 @@ A single-app kiosk uses the assigned access feature to run a single app above th
 >
 > Assigned access single-app kiosk mode is not supported over a remote desktop connection. Your kiosk users must sign in on the physical device that is set up as a kiosk.
 
+
 ## Benefits of using a single-app kiosk
 A single-app kiosk is ideal for public use. Using [shell launcher](./Shell-Launcher.md), you can configure a kiosk device that runs a Windows desktop application as the user interface. The application that you specify replaces the default shell (explorer.exe) that usually runs when a user logs on. This type of single-app kiosk does not run above the lock screen.
+
 
 ## Configuring your single-app kiosks
 You have several options for configuring your single-app kiosk.
@@ -29,6 +31,7 @@ You have several options for configuring your single-app kiosk.
 
 > [!TIP]
 > You can also configure a kiosk account and app for single-app kiosk within [XML in a provisioning package](https://docs.microsoft.com/windows/configuration/lock-down-windows-10-to-specific-apps) by using a [kiosk profile](https://docs.microsoft.com/windows/configuration/lock-down-windows-10-to-specific-apps#profile). Be sure to check the [configuration recommendations](https://docs.microsoft.com/windows/configuration/kiosk-prepare) before you set up your kiosk.
+
 
 ## Additional Resources
 * [Guidelines for choosing an app for assigned access](https://docs.microsoft.com/windows/configuration/guidelines-for-assigned-access-app)

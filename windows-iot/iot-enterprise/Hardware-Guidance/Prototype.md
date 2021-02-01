@@ -2,7 +2,7 @@
 title: Start Prototyping
 author: rsameser
 ms.author: riameser
-ms.date: 1/31/2021
+ms.date: 2/1/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -19,7 +19,6 @@ The following boards have been proven to be a great start point for your Windows
 
 * [Latte Panda](https://www.lattepanda.com/)
 * [Intel NuC](https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html)
-* [Asus Vivo Mini](https://www.asus.com/us/Mini-PCs/VivoMini-Products/)
 * [AAEON Up Squared](https://www.aaeon.com/en/p/iot-gateway-maker-boards-up-squared)
 * [Up Board](https://up-board.org/up/specifications/)
 

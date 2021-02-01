@@ -92,7 +92,6 @@ Learn more about the device management solutions you can take advantage of with 
 Articles include:
 * [Device Management Overview](./Device-Management/Device-Management-Overview.md)
 * [Explore Mobile Device Management Solutions](./Device-Management/Mobile-Device-Management.md)
-* [Manage Application Updates](Device-Management/App-Updates.md)
 
 
 ### IoT Device Features
@@ -100,13 +99,15 @@ This section gives an overview of many of the built-in functionalities of Window
 
 Articles include:
 * [Windows IoT Security](./OS-Features/Security.md)
-* [Manage Windows Updates](./OS-Features/Updates.md)
+* [Manage OS Updates](./OS-Features/Updates.md)
+* [Manage App Updates](Device-Management/App-Updates.md)
 * [Enable Embedded Mode](./OS-Features/Embedded-Mode.md)
 * [Configure Device Drivers](./OS-Features/Device-Drivers.md)
 * [Bus Providers](./OS-Features/Bus-Providers.md)
 * [Manage Network Service Controls](./OS-Features/Network-Controls.md)
 * [Enable On-Screen Keyboard](./OS-Features/On-Screen-Keyboard.md)
-* [Accessibility & Privacy Features](./OS-Features/Accessibility-Privacy.md)
+* [Privacy Features](./OS-Features/Privacy.md)
+* [Accessibility Features](./OS-Features/Accessibility.md)
 
 
 ### Commercialization
@@ -122,7 +123,6 @@ These resources provide additional information and support to our customers and 
 
 Articles include:
 * [Azure IoT Edge for Linux on Windows](./EFLOW.md)
-* [Accessibility in Windows](./Accessibility.md)
 * [Features by Release](./Features.md)
 * [Frequently Asked Questions](./FAQ.md)
 * [Contact Us](./Contact-Us.md)

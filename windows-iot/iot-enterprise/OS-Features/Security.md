@@ -2,7 +2,7 @@
 title: Security
 author: rsameser
 ms.author: riameser
-ms.date: 1/31/2020
+ms.date: 2/1/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -28,7 +28,7 @@ Windows 10 IoT Enterprise is built on a five-point comprehensive security platfo
 4. [Cloud Security](#cloud-security)
 5. [Response](#response)
 
-## Device Protection
+##1.  Device Protection
 Windows Security provides the following built-in security options to help protect your device from malicious software attacks. Like they say, a strong defense, is a strong offense.
 
 ### Trusted Platform Module (TPM)​
@@ -51,7 +51,7 @@ For information on how the secure boot process works included Trusted Boot and M
 Wherever confidential data is stored, it must be protected against unauthorized access. Windows has a long history of providing at-rest data-protection solutions that guard against nefarious attackers, beginning with the Encrypting File System in the Windows 2000 operating system. More recently, [BitLocker](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10) has provided encryption for full drives and portable drives. Windows consistently improves data protection by improving existing options and by providing new strategies. To learn more, see [BitLocker Overview and Requirements FAQ](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview-and-requirements-faq)
 
 
-## Threat Resistance
+## 2. Threat Resistance
 We provide a security tools set for Windows to protect a wide range of threats against execution of unauthorized code and scripts, network, and malware attacks. Effectively identifying, assessing, and remediating endpoint weaknesses is pivotal in running a healthy security program and reducing organizational risk. Threat and vulnerability management serves as an infrastructure for reducing organizational exposure, hardening endpoint surface area, and increasing organizational resilience.
 
 ### Windows Defender Firewall
@@ -63,25 +63,31 @@ We provide a security tools set for Windows to protect a wide range of threats a
 ### Windows Defender
 [Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) is a unified platform for preventative protection, post-breach detection, automated investigation, and response. Defender for Endpoint protects endpoints from cyber threats, detects advanced attacks and data breaches, automates security incidents, and improves security posture.
 
-## Data Protection in Motion
+## 3. Data Protection in Motion
 Data Protection covers control of data protection at rest, in transit, and via authorized access mechanisms. This includes discover, classify, protect, and monitor sensitive data assets using access control, encryption, and logging.
 
 ### X.509/TLS-Based Handshake and Encryption
 Transport Layer Security (TLS), like Secure Sockets Layer (SSL), is an encryption protocol intended to keep data secure when being transferred over a network. [These articles](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2) describe steps required to ensure that Configuration Manager secure communication uses the TLS 1.2 protocol.
 
 
-## Cloud Security
+## 4. Cloud Security
 Microsoft Azure includes tools to safeguard data according to your company's security and compliance needs. To learn more, visit [Azure Security](https://azure.microsoft.com/overview/security/)
 
 
-## Response
+## 5. Response
 Microsoft has all the tooling to provide immediate support and assistance.  
 
 ### Device Management
-Microsoft provides a whole suite of [device management](../Device-Management/Device-Management-Overview.md) solutions to keep your devices safe and monitor activity at all times. Managing a device is now easier than ever on Windows 10 IoT Enterprise. There are multiple options that your organization can choose from in order to best manage your devices, such as Microsoft Intune, Endpoint Manager and third-party OMA-DM based management tools. OEMs can also select Azure Device Agent, which leaves it up to their customers to select the device management solution that fits them best.  
+Microsoft provides a whole suite of [device management](../Device-Management/Device-Management-Overview.md) solutions to keep your devices safe and monitor activity at all times. Managing a device is now easier than ever on Windows 10 IoT Enterprise. There are multiple options that your organization can choose from in order to best manage your devices, such as Microsoft Intune, Endpoint Manager and third-party OMA-DM based management tools. OEMs can also select Azure Device Agent, which leaves it up to their customers to select the device management solution that fits them best. I
 
 ### Device Recovery
-On the off chance something does go wrong, The Microsoft [Support and Recovery Assistant](https://www.microsoft.com/download/100607) works by running tests to figure out what's wrong and offers the best solution for the identified problem. It can currently fix Office, Office 365, Outlook, and Windows problems. If the Microsoft Support and Recovery Assistant can't fix a problem for you, it will suggest next steps and help you get in touch with Microsoft support.
+In case something is to go wrong with your device, Windows 10 IoT Enterprise supports two device recovery options:
+
+**Option #1:** Isolate the device using device management tools or network settings
+
+**Option #2:** Reimage the device back to factory settings.
+
+*[Windows IoT Device Health Attestation](#Windows-Device-Health-Attestation​) enables the operator to assess if a device is booted to a trusted and compliant state, and take appropriate remedial actions if necessary through Azure IoT Hub Device Management.*
 
 
 ## Additional resources
