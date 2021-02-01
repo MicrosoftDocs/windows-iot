@@ -16,7 +16,7 @@ keywords: Branding, Settings Page Visibility
 ## Configure the Page Visibility Policy
 Added in Windows 10, version 1703, the page visibility policy can prevent specific pages in the System Settings app from being visible or accessible, or to do so for all pages except those specified.
 
-The mode will be specified by the policy string beginning with either the string **showonly:** or **hide:**.
+The mode will be specified by the policy string beginning with either the string **showonly** or **hide**.
 
 Pages are identified by a shortened version of their already [published URIs](https://docs.microsoft.com/windows/uwp/launch-resume/launch-settings-app#ms-settings-uri-scheme-reference), which is the URI minus the "ms-settings:" prefix. Multiple page identifiers are separated by semicolons.
 
