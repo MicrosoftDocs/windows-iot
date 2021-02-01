@@ -9,7 +9,7 @@ ms.technology: iot
 description: Learn about SoCs and Custom Boards requirements for Windows 10 IoT Enterprise.
 keywords: IoT Enterprise, Hardware, SoCs, Custom Boards, development devices, boards, SOC, SOM, system on chips, Windows IoT
 ---
-# SoCs and custom boards
+# SoCs and Custom Boards
 
 ## Microsoft-enabled SoCs
 
