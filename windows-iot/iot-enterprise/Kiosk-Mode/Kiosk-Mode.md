@@ -15,7 +15,7 @@ Windows 10 IoT Enterprise allows you to build fixed purpose devices such as ATM 
 
 Kiosk configurations are based upon either [assigned access](https://docs.microsoft.com/windows/configuration/guidelines-for-assigned-access-app) or [shell launcher](./Shell-Launcher.md). There are several kiosk configuration methods that you can choose from, depending on your answers to the following questions.
 
-> [!TIP]
+> [!NOTE]
 >
 > A benefit of using an assigned access kiosk mode is [these policies](https://docs.microsoft.com/windows/configuration/kiosk-policies) are automatically applied to the device to optimize the lock-down experience.
 
