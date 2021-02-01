@@ -24,7 +24,7 @@ However, when it comes to licensing and distribution, the desktop version and Io
 
 
 ## Why Do Customer Choose Windows 10 IoT Enterprise?
-There are three big reasons why customers choose to develop with Windows 10 IoT Enterprise
+There are three main reasons why customers choose to develop with Windows 10 IoT Enterprise
 
 1. **Fast** - Quickly get IoT devices to market and maintain for the long term with out of the box OS
 2. **Secure** - Help keep devices secure for the long term with turnkey enterprise platform security
