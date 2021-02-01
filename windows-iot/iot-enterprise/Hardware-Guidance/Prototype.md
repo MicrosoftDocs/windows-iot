@@ -13,7 +13,7 @@ keywords: IoT Enterprise, Prototype, Hardware, SoCs, Custom Boards, development 
 This guide will walk you through how to start prototyping with Windows 10 IoT Enterprise.
 
 ## Step 1: Select hardware
-To begin your prototyping journey, you can choose to use your existing hardware to run Windows 10 IoT Enterprise as long as it meets the [requirements](./Hardware_Requirements.md) or you can select a SoC board.
+To begin your prototyping journey, you can select a SoC board or leverage your existing hardware to run Windows 10 IoT Enterprise, as long as it meets the following [requirements](./Hardware_Requirements.md).
 
 The following boards have been proven to be a great start point for your Windows 10 IoT Enterprise solution. Feel free to choose a specific version based upon your budgetary constraints and technical requirements.
 
@@ -23,13 +23,13 @@ The following boards have been proven to be a great start point for your Windows
 * [AAEON Up Squared](https://www.aaeon.com/en/p/iot-gateway-maker-boards-up-squared)
 * [Up Board](https://up-board.org/up/specifications/)
 
-*If you are a SoM provider or an ODM and would like to be added to the list above, please send an email to winiotentsomhelp@microsoft.com or directly edit this page and submit a pull request.*
+*If you are a SoM provider or an ODM and would like to be added to the list above, directly edit this page and submit a pull request or send an email to winiotentsomhelp@microsoft.com*
 
 ## Step 2: Evaluate Edition
 To get started, you can try the [Windows 10 IoT Enterprise 90 day Evaluation](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise). To select which edition of Windows 10 IoT Enterprise you would like to work with, review [Features by Release](../Features.md).
 
 ## Step 3: Deploy an Image
-If your board comes with instructions on how to deploy Windows 10 IoT Enterprise, please follow that. Otherwise, you can follow the labs provided in the [Windows 10 IoT Enterprise Manufacturing Guide](../Commercialization/Manufacturing-Guide.md).
+If your board comes with instructions on how to deploy Windows 10 IoT Enterprise, follow those instructions. Otherwise, you can follow the labs provided in the [Windows 10 IoT Enterprise Manufacturing Guide](../Commercialization/Manufacturing-Guide.md).
 
 ## Step 4: Load an Application
 You can choose to port over your existing Windows applications or try out [UWP (Universal Windows Platform)](https://docs.microsoft.com/windows/uwp/get-started/universal-application-platform-guide) applications.
