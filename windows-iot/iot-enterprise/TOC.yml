@@ -68,7 +68,7 @@
   expanded: false 
   items:
   - name: Network Service Controls
-    href: OS-Features/Zero-Exhaust.md
+    href: OS-Features/Network-Controls.md
   - name: Bus Providers 
     href: OS-Features/Bus-Providers.md
   - name: Device Drivers
@@ -86,8 +86,6 @@
 - name: Commercialization
   expanded: false
   items: 
-  - name: Audit Mode
-    href: Commercialization/Audit-Mode.md
   - name: Licensing & Usage
     href: Commercialization/Licensing.md
   - name: Manufacturing Guide 

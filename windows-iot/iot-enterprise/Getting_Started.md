@@ -43,8 +43,12 @@ This section provides insight into the hardware needed to run Windows 10 IoT Ent
 Articles include:
 * [Hardware Requirements](./Hardware-Guidance/Hardware_Requirements.md)
 * [Selecting SoCs and Custom Boards](./Hardware-Guidance/SoCs.md)
-* [How to Start Prototyping](./Hardware-Guidance/Prototype.md)  
 
+### Quickstarts
+This section provides quick tutorials on how to get started with Windows 10 IoT Enterprise.
+
+Articles include:
+* [How to Start Prototyping](./Hardware-Guidance/Prototype.md)  
 
 ### Kiosk Mode
 This section walks users through the features and functionalities of Kiosk Mode and how to enable those features on Windows 10 IoT Enterprise.
@@ -98,7 +102,7 @@ Articles include:
 * [Enable Embedded Mode](./OS-Features/Embedded-Mode.md)
 * [Configure Device Drivers](./OS-Features/Device-Drivers.md)
 * [Bus Providers](./OS-Features/Bus-Providers.md)
-* [Enable Zero Exhaust](./OS-Features/Zero-Exhaust.md)
+* [Manage Network Service Controls](./OS-Features/Network-Controls.md)
 * [Enable On-Screen Keyboard](./OS-Features/On-Screen-Keyboard.md)
 * [Accessibility & Privacy Features](./OS-Features/Accessibility-Privacy.md)
 
@@ -107,7 +111,6 @@ Articles include:
 Learn how to commercialize your Windows 10 IoT Enterprise devices.
 
 Articles include:
-* [Audit Mode Overview](./Commercialization/Audit-Mode.md)
 * [Explore Licensing Options (LTSC, SAC)](./Commercialization/Licensing.md)
 * [Windows 10 IoT Enterprise Manufacturing Guide](./Commercialization/Manufacturing-Guide.md)
 
