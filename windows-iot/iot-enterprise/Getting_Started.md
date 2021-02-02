@@ -2,7 +2,7 @@
 title: Getting Started with Windows 10 IoT Enterprise
 author: rsameser
 ms.author: riameser
-ms.date: 1/31/2021
+ms.date: 2/2/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -90,7 +90,8 @@ Learn more about the device management solutions you can take advantage of with 
 
 Articles include:
 * [Device Management Overview](./Device-Management/Device-Management-Overview.md)
-* [Explore Mobile Device Management Solutions](./Device-Management/Mobile-Device-Management.md)
+* [Manage OS Updates](./OS-Features/Updates.md)
+* [Manage App Updates](Device-Management/App-Updates.md)
 
 
 ### IoT Device Features
@@ -98,8 +99,6 @@ This section gives an overview of many of the built-in functionalities of Window
 
 Articles include:
 * [Windows IoT Security](./OS-Features/Security.md)
-* [Manage OS Updates](./OS-Features/Updates.md)
-* [Manage App Updates](Device-Management/App-Updates.md)
 * [Enable Embedded Mode](./OS-Features/Embedded-Mode.md)
 * [Configure Device Drivers](./OS-Features/Device-Drivers.md)
 * [Bus Providers](./OS-Features/Bus-Providers.md)
