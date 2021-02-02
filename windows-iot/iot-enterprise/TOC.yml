@@ -60,6 +60,10 @@
     href: Device-Management/Device-Management-Overview.md
   - name: Mobile Device Management
     href: Device-Management/Mobile-Device-Management.md
+  - name: OS Updates
+    href: OS-Features/Updates.md
+  - name: App Updates 
+    href: Device-Management/App-Updates.md
 - name: IoT Device Features
   expanded: false 
   items:
@@ -79,10 +83,6 @@
     href: OS-Features/Privacy.md
   - name: Security
     href: OS-Features/Security.md
-  - name: OS Updates
-    href: OS-Features/Updates.md
-  - name: App Updates 
-    href: Device-Management/App-Updates.md
 - name: Commercialization
   expanded: false
   items: 
