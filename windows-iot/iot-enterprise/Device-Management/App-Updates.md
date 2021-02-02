@@ -13,11 +13,13 @@ keywords: Branding, Microsoft Store Access
 # Application Updates
 OEMs and enterprise customers can deliver app updates to Windows 10 IoT Enterprise devices in the following ways:
 * **Using Microsoft Store**: The app is published and updated from the Microsoft Store
-* **Using Device Update Center**: The app is published to Windows Update and updated like any other OEM package (driver package)
 * **Using Azure IoT Device Management**: The app is published to Azure Storage and updated through the Azure DM channel New for Windows 10, version 1709
 * **Using OMA-DM**: The app is updated using an OMA-DM compliant device management channel such as Intune or Endpoint Manager.
+* **Using Device Update Center**: The app is published to Windows Update and updated like any other OEM package (driver package).  *This feature is coming soon for Windows 10 IoT Enterprise, see [Device Management](./Device-Management-Overview.md#device-update-center) for more information*
 
-The first version of the app is always pre-packaged in the device during image time. The [ApplicationManagement/AllowAllTrustedApps](https://docs.microsoft.com/windows/client-management/mdm/policy-configuration-service-provider#applicationmanagement-allowalltrustedapps) setting should be set for enabling installation of trusted apps.
+> [!NOTE]
+>
+> The first version of the app is always pre-packaged in the device during image time. The [ApplicationManagement/AllowAllTrustedApps](https://docs.microsoft.com/windows/client-management/mdm/policy-configuration-service-provider#applicationmanagement-allowalltrustedapps) setting should be set for enabling installation of trusted apps.
 
 ## Using the Microsoft Store
 The Microsoft Store provides unique and secure means to update the IoT Enterprise apps, independent of the OS/OEM Component updates.

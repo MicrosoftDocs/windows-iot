@@ -45,13 +45,11 @@
     href: Branding-Features/Custom-Logon.md
   - name: Microsoft Store Access
     href: Branding-Features/Microsoft-Store-Access.md
-  - name: Secondary Tiles
-    href: Branding-Features/Edge-Tiles.md
   - name: Page Visibility   
     href: Branding-Features/Page-Visibility.md
   - name: Layout Control
     href: Branding-Features/Layout-Control.md
-  - name: Unbranded Boot
+  - name: Unbranded Boot and Errors
     href: Branding-Features/Unbranded-Boot.md
   - name: Update Notification
     href: Branding-Features/Update-Notification.md
@@ -62,6 +60,10 @@
     href: Device-Management/Device-Management-Overview.md
   - name: Mobile Device Management
     href: Device-Management/Mobile-Device-Management.md
+  - name: OS Updates
+    href: OS-Features/Updates.md
+  - name: App Updates 
+    href: Device-Management/App-Updates.md
 - name: IoT Device Features
   expanded: false 
   items:
@@ -81,10 +83,6 @@
     href: OS-Features/Privacy.md
   - name: Security
     href: OS-Features/Security.md
-  - name: OS Updates
-    href: OS-Features/Updates.md
-  - name: App Updates 
-    href: Device-Management/App-Updates.md
 - name: Commercialization
   expanded: false
   items: 
