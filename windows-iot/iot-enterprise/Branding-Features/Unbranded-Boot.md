@@ -1,5 +1,5 @@
 ---
-title: Unbranded Boot
+title: Unbranded Boot and Errors
 author: rsameser
 ms.author: riameser
 ms.date: 2/2/2021
@@ -10,7 +10,7 @@ description: Learn about the Unbranded Boot Feature in Windows 10 IoT Enterprise
 keywords: Branding, Unbranded Boot
 ---
 
-# Unbranded Boot
+# Unbranded Boot and Errors
 [Unbranded Boot](https://docs.microsoft.com/windows-hardware/customize/enterprise/unbranded-boot) enables you to suppress Windows elements that appear when Windows starts or resumes and can suppress the crash screen when Windows encounters an error that it cannot recover from.
 
 ## Turn on Unbranded Boot settings
