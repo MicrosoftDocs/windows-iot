@@ -79,7 +79,6 @@ This section reviews how to create a custom user-experience that highlights your
 Articles include:
 * [Enable Custom Logon](./Branding-Features/Custom-Logon.md)
 * [Manage Microsoft Store Access](./Branding-Features/Microsoft-Store-Access.md)
-* [Use Secondary Microsoft Edge Tiles](./Branding-Features/Edge-Tiles.md)
 * [Control Page Visibility](./Branding-Features/Page-Visibility.md)
 * [Configure Layout Control](./Branding-Features/Layout-Control.md)
 * [Enable Unbranded Boot](./Branding-Features/Unbranded-Boot.md)

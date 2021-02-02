@@ -2,12 +2,12 @@
 title: Layout Control
 author: rsameser
 ms.author: riameser
-ms.date: 1/31/2021
+ms.date: 2/2/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
 description: Learn about the Layout Control Features of Windows 10 IoT Enterprise.
-keywords: Branding, Layout Control, Start, Taskbar
+keywords: Branding, Layout Control, Start, Taskbar, Secondary Tiles
 ---
 # Layout Control
 In Windows 10 IoT Enterprise, organizations can deploy a [customized Start and Taskbar](https://docs.microsoft.com/windows/configuration/windows-10-start-layout-options-and-policies) configuration to their devices. We know how important it is for your devices to maintain your brand and customized user-experience.
@@ -28,6 +28,14 @@ You can deploy the resulting .xml file to devices using one of the following met
 * [Group Policy](https://docs.microsoft.com/windows/configuration/customize-windows-10-start-screens-by-using-group-policy)
 * [Windows Configuration Designer provisioning package](https://docs.microsoft.com/windows/configuration/customize-windows-10-start-screens-by-using-provisioning-packages-and-icd)
 * [Mobile device management (MDM)](https://docs.microsoft.com/windows/configuration/customize-windows-10-start-screens-by-using-mobile-device-management)
+
+### Secondary Tiles
+[Secondary tiles](https://docs.microsoft.com/windows/uwp/design/shell/tiles-and-notifications/secondary-tiles) allow users to pin specific content and deep links from your app onto their Start menu, providing easy future access to the content within your app.
+
+By adding secondary tiles to your app, you help the user re-engage quickly and efficiently with your app, encouraging them to return more often, thanks to the easy access that secondary tiles provide.
+
+![Screenshot of secondary tiles](media/secondarytiles.png)
+
 
 ## Configure Windows 10 taskbar
 Configuring the [taskbar layout](https://docs.microsoft.com/windows/configuration/configure-windows-10-taskbar) allows an organization to pin useful apps and to remove apps that are pinned by default to provide a specified user experience.
@@ -67,6 +75,7 @@ The easiest way to find this data for an application is to:
 4. Look for an entry corresponding to the app you pinned.
 5. Look for a property labeled ```AppUserModelID``` or ```DesktopApplicationLinkPath```.
 
+
 ## Additional Resources
 * [Customize the Start screen on your test computer](https://docs.microsoft.com/windows/configuration/customize-and-export-start-layout#customize-the-start-screen-on-your-test-computer)
 * [Export the Start layout](https://docs.microsoft.com/windows/configuration/customize-and-export-start-layout#export-the-start-layout)
@@ -75,3 +84,6 @@ The easiest way to find this data for an application is to:
 * [Remove default apps and add your own](https://docs.microsoft.com/windows/configuration/configure-windows-10-taskbar#remove-default-apps-and-add-your-own)
 * [Configure taskbar by country or region](https://docs.microsoft.com/windows/configuration/configure-windows-10-taskbar#configure-taskbar-by-country-or-region)
 * [Layout Modification Template schema definition](https://docs.microsoft.com/windows/configuration/configure-windows-10-taskbar#layout-modification-template-schema-definition)
+* [Secondary tile guidance](https://docs.microsoft.com/windows/uwp/design/shell/tiles-and-notifications/secondary-tiles-guidance)
+* [Pin secondary tiles](https://docs.microsoft.com/windows/uwp/design/shell/tiles-and-notifications/secondary-tiles-pinning)
+* [Add image for secondary Microsoft Edge tiles](https://docs.microsoft.com/windows/configuration/start-secondary-tiles)

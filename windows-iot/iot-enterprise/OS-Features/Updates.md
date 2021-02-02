@@ -2,7 +2,7 @@
 title: Updates
 author: rsameser
 ms.author: riameser
-ms.date: 1/31/2021
+ms.date: 2/2/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -28,7 +28,7 @@ Questions that you should ask when considering how to control Windows updates:
 * How are updates validated prior to deployment?
 * What is the update user experience on the device itself?
 
-If you have a device where disruption of the user experience isn't acceptable, you should consider limiting updates to only certain hours, disabling automatic updates, or deploying updates either manually or through a controlled third-party solution.
+If you have a device where disruption of the user experience isn't acceptable, you should consider limiting updates to only certain hours, disabling automatic updates, or deploying updates either manually or through a controlled third-party [device-management](../Device-Management/Device-Management-Overview.md) solution.
 
 ## Limit reboots from updates
 You can use the Active Hours Group Policy, MDM, or registry setting to limit updates to only certain hours.
@@ -58,3 +58,4 @@ Sometimes drivers installed from Windows Update can cause issues with a device e
 
 ## Additional Resources
 * [Update Notifications](../Branding-Features/Update-Notification.md)
+* [Device Management](../Device-Management/Device-Management-Overview.md)
