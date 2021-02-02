@@ -38,7 +38,7 @@ The **noerrordisplay** switch takes care of exhaustively suppressing all error d
 
 For example, if **noerrordisplay** to on, and if the boot manager hits a *WinLoad Error* or *Bad Disk Error*, the system will sit at a black screen and require manual reset.
 
-Review [Configure Unbranded Boot settings at runtime using BCDEdit](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/unbranded-boot#configure-unbranded-boot-settings-at-runtime-using-bcdedit) to enable the **noerrordisplay** setting.
+Review [Configure Unbranded Boot settings at runtime using BCDEdit](https://docs.microsoft.com/windows-hardware/customize/enterprise/unbranded-boot#configure-unbranded-boot-settings-at-runtime-using-bcdedit) to enable the **noerrordisplay** setting.
 
 > [!NOTE]
 >
@@ -46,7 +46,7 @@ Review [Configure Unbranded Boot settings at runtime using BCDEdit](https://docs
 
 
 ### Exception Error
-To ensure that there is no crash screen if Windows encounters an error it cannot recover from, enable the [DisplayDisabled](https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-embedded-bootexp-displaydisabled) setting using [Unattend](https://docs.microsoft.com/en-us/windows-hardware/customize/enterprise/unbranded-boot#configure-unbranded-boot-using-unattend).
+To ensure that there is no crash screen if Windows encounters an error it cannot recover from, enable the [DisplayDisabled](https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-embedded-bootexp-displaydisabled) setting using [Unattend](https://docs.microsoft.com/windows-hardware/customize/enterprise/unbranded-boot#configure-unbranded-boot-using-unattend).
 
 You can also configure the Unattend settings in the Microsoft-Windows-Embedded-BootExp component to add Unbranded Boot features to your image during the design or imaging phase. You can manually create an Unattend answer file or use Windows System Image Manager (Windows SIM) to add the appropriate settings to your answer file. For more information about the Unbranded Boot settings and XML examples, see the settings in [Microsoft-Windows-Embedded-BootExp](https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-embedded-bootexp).
 
