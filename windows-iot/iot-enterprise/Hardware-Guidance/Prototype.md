@@ -2,7 +2,7 @@
 title: Start Prototyping
 author: rsameser
 ms.author: riameser
-ms.date: 2/1/2021
+ms.date: 2/2/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
