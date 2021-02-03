@@ -12,7 +12,7 @@ keywords: IoT Enterprise, Prototype, Hardware, SoCs, Custom Boards, development 
 # Start Prototyping
 This guide will walk you through how to start prototyping with Windows 10 IoT Enterprise.
 
-## Step 1: Select hardware
+## Step 1: Select Hardware
 To begin your prototyping journey, you can select a SoC board or leverage your existing hardware to run Windows 10 IoT Enterprise, as long as it meets the following [requirements](./Hardware_Requirements.md).
 
 The following boards have been proven to be a great start point for your Windows 10 IoT Enterprise solution. Feel free to choose a specific version based upon your budgetary constraints and technical requirements.
