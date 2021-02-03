@@ -58,8 +58,6 @@
   items:
   - name: Overview
     href: Device-Management/Device-Management-Overview.md
-  - name: Mobile Device Management
-    href: Device-Management/Mobile-Device-Management.md
   - name: OS Updates
     href: OS-Features/Updates.md
   - name: App Updates 
