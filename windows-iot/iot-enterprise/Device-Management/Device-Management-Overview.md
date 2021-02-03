@@ -17,7 +17,7 @@ Windows 10 provides an enterprise management solution to help IT pros manage com
 
 
 ### Microsoft Intune
-[Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) is a cloud-based service that focuses on mobile device management (MDM) and mobile application management (MAM). You control how your organization’s devices are used and can configure specific policies to control applications. Intune is part of [Microsoft's Enterprise Mobility + Security (EMS) suite](https://www.microsoft.com/microsoft-365/enterprise-mobility-security?rtc=1). Intune integrates with Azure Active Directory (Azure AD) to control who has access, and what they can access. It also integrates with Azure Information Protection for data protection. Here's a [guide](https://docs.microsoft.com/windows/iot-core/manage-your-device/intunedeviceenrollment) on how to enroll your devices in Microsoft Intune.
+[Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) is a cloud-based service that focuses on mobile device management (MDM) and mobile application management (MAM). You control how your organization’s devices are used and can configure specific policies to control applications. Intune is part of [Microsoft's Enterprise Mobility + Security (EMS) suite](https://www.microsoft.com/microsoft-365/enterprise-mobility-security?rtc=1). Intune integrates with Azure Active Directory (Azure AD) to control who has access, and what they can access. It also integrates with Azure Information Protection for data protection. Here's a [guide](https://docs.microsoft.com/mem/intune/enrollment/windows-bulk-enroll) on how to enroll your devices in Microsoft Intune.
 
 
 ## Microsoft Endpoint Manager (Formerly SCCM)
