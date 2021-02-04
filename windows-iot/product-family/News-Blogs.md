@@ -16,7 +16,7 @@ This section is updated regularly with new blogs, articles and news stories feat
 ## Windows IoT
 Stay up to date on the latest news for Windows IoT Product Family.
 
-# [2021](#tab/WI2021)
+# [2021](#tab/2021/WinIoT)
 
 **Blogs**
 * [Enabling Linux based Azure IoT Edge Modules on Windows IoT](https://techcommunity.microsoft.com/t5/internet-of-things/enabling-linux-based-azure-iot-edge-modules-on-windows-iot/ba-p/2075882)
@@ -24,7 +24,7 @@ Stay up to date on the latest news for Windows IoT Product Family.
 **Videos**
 * [Run Linux based IoT Edge modules on Windows IoT](https://channel9.msdn.com/Shows/Internet-of-Things-Show/Run-Linux-based-IoT-Edge-modules-on-Windows-IoT)
 
-# [2020](#tab/WI2020)
+# [2020](#tab/2020/WinIoT)
 
 **Blogs**
 * [Build your IoT devices with Windows for IoT: a comprehensive platform for every device developer](https://blogs.windows.com/windowsdeveloper/2020/05/26/build-your-iot-devices-with-windows-for-iot-a-comprehensive-platform-for-every-device-developer/)
@@ -35,7 +35,7 @@ Stay up to date on the latest news for Windows IoT Product Family.
 **Videos**
 * [Windows for IoT - A Roadmap update](https://www.youtube.com/watch?v=yW6TjINVjQ0&feature=emb_title)
 
-# [2019](#tab/WI2019)
+# [2019](#tab/2019/WinIoT)
 
 **Blogs**
 * [Build your IoT devices with Windows for IoT: a comprehensive platform for every device developer](https://blogs.windows.com/windowsdeveloper/2020/05/26/build-your-iot-devices-with-windows-for-iot-a-comprehensive-platform-for-every-device-developer/)
@@ -51,7 +51,7 @@ Stay up to date on the latest news for Windows IoT Product Family.
 ## Windows 10 IoT Enterprise
 Stay up to date on the latest news for Windows 10 IoT Enterprise.
 
-# [2021](#tab/Ent2021)
+# [2021](#tab/2021/Ent)
 
 **Blogs** - this is a duplicate
 * [Microsoft Edge Kiosk Mode with Assigned Access](https://blogs.windows.com/windowsexperience/2020/09/22/whats-new-in-web-experiences-ignite-2020-need-to-secure-your-remote-workers-choose-microsoft-edge-as-your-browser-for-business/)
@@ -63,7 +63,7 @@ Stay up to date on the latest news for Windows 10 IoT Enterprise.
 **Case Studies**
 * [Dover Fueling Solutions](https://customers.microsoft.com/story/775087-microsoft-country-corner-dover-fueling-solutions-oil-and-gas-azure)
 
-# [2020](#tab/Ent2020)
+# [2020](#tab/2020/Ent)
 
 **Blogs**
 * [Microsoft Edge Kiosk Mode with Assigned Access](https://blogs.windows.com/windowsexperience/2020/09/22/whats-new-in-web-experiences-ignite-2020-need-to-secure-your-remote-workers-choose-microsoft-edge-as-your-browser-for-business/)
@@ -76,7 +76,7 @@ Stay up to date on the latest news for Windows 10 IoT Enterprise.
 * [Dover Fueling Solutions](https://customers.microsoft.com/story/775087-microsoft-country-corner-dover-fueling-solutions-oil-and-gas-azure)
 
 
-# [2019](#tab/Ent2019)
+# [2019](#tab/2019/Ent)
 
 **Blogs** - this is a duplicate
 * [Microsoft Edge Kiosk Mode with Assigned Access](https://blogs.windows.com/windowsexperience/2020/09/22/whats-new-in-web-experiences-ignite-2020-need-to-secure-your-remote-workers-choose-microsoft-edge-as-your-browser-for-business/)
@@ -93,17 +93,17 @@ Stay up to date on the latest news for Windows 10 IoT Enterprise.
 ## Windows 10 IoT Core
 Stay up to date on the latest news for Windows 10 IoT Enterprise.
 
-# [2021](#tab/C2021)
+# [2021](#tab/2021/Core)
 
 **News** - this is a duplicate
 * [Anheuser-Busch Partners with Bit-Wizards](https://www.prweb.com/releases/anheuser_busch_partners_with_bit_wizards/prweb16769093.htm)
 
-# [2020](#tab/C2020)
+# [2020](#tab/2020/Core)
 
 **News**
 * [Anheuser-Busch Partners with Bit-Wizards](https://www.prweb.com/releases/anheuser_busch_partners_with_bit_wizards/prweb16769093.htm)
 
-# [2019](#tab/C2019) - this is a duplicate
+# [2019](#tab/2019/Core) - this is a duplicate
 
 **News**
 * [Anheuser-Busch Partners with Bit-Wizards](https://www.prweb.com/releases/anheuser_busch_partners_with_bit_wizards/prweb16769093.htm)
@@ -113,7 +113,7 @@ Stay up to date on the latest news for Windows 10 IoT Enterprise.
 ## Microsoft Build
 Review the Windows IoT highlights from Microsoft Build
 
-# [2021](#tab/MB/2021)
+# [2021](#tab/2021/MB)
 
 **Blogs** - this section is a duplicate
 * [Virtual Build spotlights IoT updates and rollouts](https://azure.microsoft.com/blog/virtual-build-spotlights-iot-updates-and-rollouts/)
@@ -122,7 +122,7 @@ Review the Windows IoT highlights from Microsoft Build
 **News**
 * [Microsoft Build proves splashy tech events can thrive online](https://www.cnn.com/2020/05/21/tech/microsoft-build-event-2020/index.html)
 
-# [2020](#tab/MB/2020)
+# [2020](#tab/2020/MB)
 
 **Blogs**
 * [Virtual Build spotlights IoT updates and rollouts](https://azure.microsoft.com/blog/virtual-build-spotlights-iot-updates-and-rollouts/)
@@ -132,7 +132,7 @@ Review the Windows IoT highlights from Microsoft Build
 * [Microsoft Build proves splashy tech events can thrive online](https://www.cnn.com/2020/05/21/tech/microsoft-build-event-2020/index.html)
 
 
-# [2019](#tab/MB/2019)
+# [2019](#tab/2019/MB)
 
 **Blogs** - this section is a duplicate
 * [Virtual Build spotlights IoT updates and rollouts](https://azure.microsoft.com/blog/virtual-build-spotlights-iot-updates-and-rollouts/)
