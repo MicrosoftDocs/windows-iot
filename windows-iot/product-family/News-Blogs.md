@@ -16,7 +16,7 @@ This section is updated regularly with new blogs, articles and news stories feat
 ## Windows IoT
 Stay up to date on the latest news for Windows IoT Product Family.
 
-# [2021](#tab/2021)
+# [2021](#tab/2021/1)
 
 **Blogs**
 * [A](https://techcommunity.microsoft.com/t5/internet-of-things/enabling-linux-based-azure-iot-edge-modules-on-windows-iot/ba-p/2075882)
@@ -33,7 +33,7 @@ Stay up to date on the latest news for Windows IoT Product Family.
 * [B](https://channel9.msdn.com/Shows/Internet-of-Things-Show/Run-Linux-based-IoT-Edge-modules-on-Windows-IoT)
 * [C](https://channel9.msdn.com/Shows/Internet-of-Things-Show/Run-Linux-based-IoT-Edge-modules-on-Windows-IoT)
 
-# [2020](#tab/2020)
+# [2020](#tab/2020/1)
 
 **Blogs**
 * [D](https://techcommunity.microsoft.com/t5/internet-of-things/enabling-linux-based-azure-iot-edge-modules-on-windows-iot/ba-p/2075882)
@@ -50,7 +50,7 @@ Stay up to date on the latest news for Windows IoT Product Family.
 * [E](https://techcommunity.microsoft.com/t5/internet-of-things/enabling-linux-based-azure-iot-edge-modules-on-windows-iot/ba-p/2075882)
 * [F](https://techcommunity.microsoft.com/t5/internet-of-things/enabling-linux-based-azure-iot-edge-modules-on-windows-iot/ba-p/2075882)
 
-# [2019](#tab/2019)
+# [2019](#tab/2019/1)
 
 **Blogs**
 * [G](https://techcommunity.microsoft.com/t5/internet-of-things/enabling-linux-based-azure-iot-edge-modules-on-windows-iot/ba-p/2075882)
@@ -73,7 +73,7 @@ Stay up to date on the latest news for Windows IoT Product Family.
 ## Windows 10 IoT Enterprise
 Stay up to date on the latest news for Windows 10 IoT Enterprise.
 
-# [2021](#tab/2021)
+# [2021](#tab/2021/2)
 
 **Blogs**
 * [A](https://techcommunity.microsoft.com/t5/internet-of-things/enabling-linux-based-azure-iot-edge-modules-on-windows-iot/ba-p/2075882)
@@ -90,7 +90,7 @@ Stay up to date on the latest news for Windows 10 IoT Enterprise.
 * [B](https://channel9.msdn.com/Shows/Internet-of-Things-Show/Run-Linux-based-IoT-Edge-modules-on-Windows-IoT)
 * [C](https://channel9.msdn.com/Shows/Internet-of-Things-Show/Run-Linux-based-IoT-Edge-modules-on-Windows-IoT)
 
-# [2020](#tab/2020)
+# [2020](#tab/2020/2)
 
 **Blogs**
 * [D](https://techcommunity.microsoft.com/t5/internet-of-things/enabling-linux-based-azure-iot-edge-modules-on-windows-iot/ba-p/2075882)
@@ -107,7 +107,7 @@ Stay up to date on the latest news for Windows 10 IoT Enterprise.
 * [E](https://techcommunity.microsoft.com/t5/internet-of-things/enabling-linux-based-azure-iot-edge-modules-on-windows-iot/ba-p/2075882)
 * [F](https://techcommunity.microsoft.com/t5/internet-of-things/enabling-linux-based-azure-iot-edge-modules-on-windows-iot/ba-p/2075882)
 
-# [2019](#tab/2019)
+# [2019](#tab/2019/2)
 
 **Blogs**
 * [G](https://techcommunity.microsoft.com/t5/internet-of-things/enabling-linux-based-azure-iot-edge-modules-on-windows-iot/ba-p/2075882)
