@@ -40,7 +40,7 @@ Stay up to date on the latest news for Windows IoT Product Family.
 ## Windows 10 IoT Enterprise
 Stay up to date on the latest news for Windows 10 IoT Enterprise.
 
-# [2020](#tab/2020)
+# [2020](#tab/2020/ent)
 
 **Blogs**
 * [Microsoft Edge Kiosk Mode with Assigned Access](https://blogs.windows.com/windowsexperience/2020/09/22/whats-new-in-web-experiences-ignite-2020-need-to-secure-your-remote-workers-choose-microsoft-edge-as-your-browser-for-business/)
@@ -57,7 +57,7 @@ Stay up to date on the latest news for Windows 10 IoT Enterprise.
 ## Windows 10 IoT Core
 Stay up to date on the latest news for Windows 10 IoT Enterprise.
 
-# [2019](#tab/2020)
+# [2019](#tab/2020/core)
 
 **News**
 * [Anheuser-Busch Partners with Bit-Wizards](https://www.prweb.com/releases/anheuser_busch_partners_with_bit_wizards/prweb16769093.htm)
@@ -66,7 +66,16 @@ Stay up to date on the latest news for Windows 10 IoT Enterprise.
 ## Microsoft Build
 Review the Windows IoT highlights from Microsoft Build
 
-# [2020](#tab/2020)
+# [2021](#tab/2021/build)
+
+**Blogs** - this section is a duplicate
+* [Virtual Build spotlights IoT updates and rollouts](https://azure.microsoft.com/blog/virtual-build-spotlights-iot-updates-and-rollouts/)
+* [IoT at Microsoft Build 2020](https://techcommunity.microsoft.com/t5/internet-of-things/iot-at-microsoft-build-2020/ba-p/1387770)
+
+**News**
+* [Microsoft Build proves splashy tech events can thrive online](https://www.cnn.com/2020/05/21/tech/microsoft-build-event-2020/index.html)
+
+# [2020](#tab/2020/build)
 
 **Blogs**
 * [Virtual Build spotlights IoT updates and rollouts](https://azure.microsoft.com/blog/virtual-build-spotlights-iot-updates-and-rollouts/)
