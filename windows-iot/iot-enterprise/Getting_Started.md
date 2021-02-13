@@ -25,9 +25,9 @@ Windows 10 IoT Enterprise is a full version of Windows 10 that delivers enterpri
 ## Why Do Customer Choose Windows 10 IoT Enterprise?
 There are three main reasons why customers choose to develop with Windows 10 IoT Enterprise:
 
-1. **Fast** - Quickly get IoT devices to market and maintain for the long term with out of the box OS
-2. **Secure** - Help keep devices secure for the long term with turnkey enterprise platform security
-3. **Smart** - Easily bring AI and ML to the edge with Windows ML and support from Azure IoT Edge
+1. **Productive** - Leverage existing knowledge to build and manage Windows 10 IoT Enterprise devices with powerful tools and technologies to quickly unlock data and drive digital transformation.
+2. **Trusted** - Windows 10 IoT Enterprise helps you build IoT solutions that you can trust, keeping your devices, data, and identities secure and giving you peace of mind.
+3. **Smart** - Windows 10 IoT Enterprise helps you connect your devices to each other, your network, and the cloud, so you can use data to drive real business insight and create new business opportunities
 
 > [!TIP]
 >
