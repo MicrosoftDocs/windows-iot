@@ -12,7 +12,7 @@ keywords: IoT Enterprise, Linux, Device Builders, Appliance, EFLOW, Azure IoT Ed
 
 # Azure IoT Edge for Linux on Windows (EFLOW)
 >[!NOTE]
->Azure IoT Edge for Linux on Windows (EFLOW) is currently in public preview. [Get started](https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install-iot-edge-on-windows?view=iotedge-2018-06&tabs=windowsadmincenter) with the preview today.
+>Azure IoT Edge for Linux on Windows (EFLOW) is currently in public preview. [Get started](https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge-on-windows) with the preview today.
 
 [Azure IoT Edge for Linux on Windows](https://docs.microsoft.com/azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06&preserve-view=true) allows you to run containerized Linux workloads alongside Windows applications in Windows IoT deployments. Businesses that rely on Windows IoT to power their edge devices can now take advantage of the cloud-native analytics solutions being built in Linux.
 
