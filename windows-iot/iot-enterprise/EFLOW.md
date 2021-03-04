@@ -37,4 +37,4 @@ In addition, Windows applications can easily interact with Linux modules running
 ## Additional Resources
 * [EFLOW Documentation](https://docs.microsoft.com/azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06&preserve-view=true)
 * [IoT Show: Run Linux based IoT Edge modules on Windows IoT](https://www.youtube.com/watch?v=UB2yigjg5V8)
-* [Get started](https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install-iot-edge-on-windows?view=iotedge-2018-06&tabs=windowsadmincenter) with the preview today.
+* [Get started](https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge-on-windows) with the preview today.
