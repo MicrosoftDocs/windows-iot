@@ -1,6 +1,8 @@
 ---
 title: Overview of Windows Server IoT 2019
+author: rsameser
 ms.date: 02/07/2019
+ms.author: riameser
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
