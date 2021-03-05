@@ -10,7 +10,7 @@ description: Learn about the Update features of Windows 10 IoT Enterprise.
 keywords: IoT Enterprise, Updates
 ---
 
-# Updates
+# OS Updates
 Connected devices have the challenge of new security threats, updates are an essential tool to address this.
 
 Windows Update Advantage:
