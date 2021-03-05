@@ -69,7 +69,7 @@ productDirectory:
     - title: Windows Server IoT 2019
       imageSrc: ./media/index/windows.png
       links:
-        - url: https://docs.microsoft.com/en-us/windows/iot-core/windows-server
+        - url: ./server/windows-server.md
           text: Overview
         - url: https://docs.microsoft.com/en-us/windows-server/get-started-19/whats-new-19
           text:  What's new in Windows Server 2019?
