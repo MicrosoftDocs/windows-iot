@@ -90,6 +90,8 @@
     href: Commercialization/Manufacturing-Guide.md
 - name: Azure IoT Edge for Linux on Windows (EFLOW) 
   href: EFLOW.md
+- name: Downloads
+  href: Downloads.md
 - name: Features by Release
   href: Features.md
 - name: Frequently Asked Questions
