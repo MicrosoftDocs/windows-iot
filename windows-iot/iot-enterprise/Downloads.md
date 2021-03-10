@@ -27,8 +27,7 @@ You can try the free [Windows 10 IoT Enterprise 90 day Evaluation](https://www.m
 
 
 ## Windows IoT Distributor
-You can reach out to a [Windows IoT Distributor](https://aka.ms/IoTDistributorList). Distributors can leverage their Windows IoT
-development experiences, and knowledge, to help you build secure and connected Windows IoT solutions. Please select a distributor in your region and contact the distributor directly for more details.
+You can reach out to a [Windows IoT Distributor](https://aka.ms/IoTDistributorList). Distributors can leverage their Windows IoT development experiences, and knowledge, to help you build secure and connected Windows IoT solutions. Please select a distributor in your region and contact the distributor directly for more details.
 
 
 ## Additional Resources:
