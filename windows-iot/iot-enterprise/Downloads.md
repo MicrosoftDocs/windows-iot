@@ -11,7 +11,9 @@ keywords: IoT Enterprise, FAQ
 ---
 
 # Downloads
-If you would like to download Windows 10 IoT Enterprise, please review the options below. To select which edition of Windows 10 IoT Enterprise you would like to work with, review [Features by Release](./Features.md).
+If you would like to download Windows 10 IoT Enterprise, please review the options below.
+
+To select which edition of Windows 10 IoT Enterprise you would like to work with, review [Features by Release](./Features.md).
 
 
 ## Partner Center
