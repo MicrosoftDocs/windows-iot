@@ -17,7 +17,7 @@ If you have questions, concerns or require support for Windows 10 IoT Enterprise
 * [Contact Microsoft Support](https://support.microsoft.com/en-us/contactus#)
 * [Support for Business](https://support.microsoft.com/supportforbusiness/productselection)
 
-## Ecosystem Partner Services Offering (EPSO)
+## Ecosystem Partner Services Offering
 If you would like to purchase system integration support from Microsoft, please contact epsoinfo@microsoft.com.
 
 ## MVP Program
