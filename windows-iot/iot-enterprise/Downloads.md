@@ -25,7 +25,7 @@ You can [download](https://my.visualstudio.com/Downloads?q=Windows%2010%20IoT%20
 
 
 ## 90-Day Evaluation
-You can try the free [Windows 10 IoT Enterprise 90 day Evaluation](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise).
+You can download the free [90 day evaluation copy](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise) of Windows 10 IoT Enterprise, which is available in the [Microsoft Evaluation Center](https://www.microsoft.com/evalcenter/).
 
 
 ## Windows IoT Distributor
