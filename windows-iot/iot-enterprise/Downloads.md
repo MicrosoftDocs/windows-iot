@@ -24,7 +24,7 @@ If you are a Windows IoT Partner, check [Partner Center](https://partner.microso
 You can [download](https://my.visualstudio.com/Downloads?q=Windows%2010%20IoT%20Enterprise&pgroup=) Windows 10 IoT Enterprise using your [Visual Studio Subscription](https://visualstudio.microsoft.com/subscriptions/).
 
 
-## 90-Day Evaluation
+## 90 Day Evaluation
 You can download a free [90 day evaluation copy](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise) of Windows 10 IoT Enterprise.
 
 
