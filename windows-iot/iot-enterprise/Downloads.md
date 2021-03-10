@@ -11,7 +11,7 @@ keywords: IoT Enterprise, FAQ
 ---
 
 # Downloads
-If you would like to download Windows 10 IoT Enterprise, please review the options below.
+If you would like to download Windows 10 IoT Enterprise, please review the options below. To select which edition of Windows 10 IoT Enterprise you would like to work with, review [Features by Release](./Features.md).
 
 
 ## Partner Center
@@ -19,11 +19,11 @@ If you are a Windows IoT Partner, check [Partner Center](https://partner.microso
 
 
 ## Visual Studio Subscriptions
-You can [download](https://my.visualstudio.com/Downloads?q=Windows%2010%20IoT%20Enterprise&pgroup=) the latest Windows 10 IoT Enterprise builds using your [Visual Studio Subscription](https://visualstudio.microsoft.com/subscriptions/).
+You can [download](https://my.visualstudio.com/Downloads?q=Windows%2010%20IoT%20Enterprise&pgroup=) the Windows 10 IoT Enterprise using your [Visual Studio Subscription](https://visualstudio.microsoft.com/subscriptions/).
 
 
 ## 90-Day Evaluation
-You can try the free [Windows 10 IoT Enterprise 90 day Evaluation](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise). To select which edition of Windows 10 IoT Enterprise you would like to work with, review [Features by Release](./Features.md).
+You can try the free [Windows 10 IoT Enterprise 90 day Evaluation](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise).
 
 
 ## Windows IoT Distributor
