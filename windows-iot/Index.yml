@@ -20,13 +20,13 @@ highlightedContent:
   items:
     - title: What is Windows IoT?
       itemType: overview # controls the icon image and super-title text
-      url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot
+      url: ./product-family/windows-iot.md
     - title: What's new in Windows IoT?
       itemType: whats-new
-      url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot
+      url: ./product-family/News-Blogs.md
     - title: Which Windows IoT Solution is Right For Me?
       itemType: get-started
-      url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot
+      url: ./product-family/windows-iot.md
 
 productDirectory:
   items:
