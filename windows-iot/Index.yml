@@ -39,6 +39,15 @@ productDirectory:
           text: Manufacturing Guide
         - url: ./iot-enterprise/Kiosk-Mode/Kiosk-Mode.md
           text: Kiosk Mode
+    - title: Edge for Linux on Windows IoT
+      imageSrc: ./media/index/windows.png
+      links:
+        - url: ./eflow/EFLOW.md
+          text: Overview
+        - url: https://docs.microsoft.com/azure/iot-edge/quickstart?view=iotedge-2018-06
+          text: Quickstart
+        - url: https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge-on-windows?view=iotedge-2018-06&tabs=powershell
+          text: How-to Guide
     - title: Windows 10 IoT Core
       imageSrc: ./media/index/windows.png
       links:
