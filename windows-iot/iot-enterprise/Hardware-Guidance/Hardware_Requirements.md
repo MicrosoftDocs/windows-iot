@@ -2,7 +2,7 @@
 title: Hardware Requirements
 author: rsameser
 ms.author: riameser
-ms.date: 1/31/2021
+ms.date: 3/12/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -22,22 +22,15 @@ The goal of this specification is to enable OEMs, ODMs, SoC vendors, and other c
 
 This specification does not provide compatibility and certification requirements for devices and computers that run Windows 10 IoT Enterprise or implementation guidance for exceptional user experiences.
 
-## Processor
-Devices that run Windows 10 IoT Enterprise require a 1 GHz or faster processor or SoC that meets the following requirements:
-* Compatible with the x86* or x64 instruction set.
-* Supports PAE, NX, and SSE2.
-* Supports CMPXCHG16b, LAHF/SAHF, and PrefetchW for 64-bit OS installation.
-
 > [!NOTE]
 > Beginning with Windows 10, version 2004, all new Windows 10 systems will be required to use 64-bit builds and Microsoft will no longer release 32-bit builds for OEM distribution. This does not impact 32-bit customer systems that are manufactured with earlier versions of Windows 10; Microsoft remains committed to providing feature and security updates on these devices, including continued 32-bit media availability in non-OEM channels to support various upgrade installation scenarios.
 
-Check out [Windows IoT Enterprise Processor Requirements](https://docs.microsoft.com/windows-hardware/design/minimum/windows-processor-requirements#windows-iot-enterprise--embedded-processors) to review the latest processor generations and models that are supported.
-
-Previous generations of processors and models (indicated by "Up through"), remain supported in addition to the listed processors and models.
-
-Information on support is available at [Microsoft Support Policy](https://support.microsoft.com/lifecycle) and [Microsoft Lifecycle FAQ](https://support.microsoft.com/help/18581).
+## Processor
+Devices that run Windows 10 IoT Enterprise must meet these [processor requirements](https://docs.microsoft.com/windows-hardware/design/minimum/minimum-hardware-requirements-overview#31-processor). Check out the [processor matrix](https://docs.microsoft.com/windows-hardware/design/minimum/windows-processor-requirements#windows-iot-enterprise--embedded-processors) to review the latest processor generations and models that are supported. Previous generations of processors and models (indicated by "Up through"), remain supported in addition to the listed processors and models.
 
 > [!TIP]
+>
+> Information on support is available at [Microsoft Support Policy](https://support.microsoft.com/lifecycle) and [Microsoft Lifecycle FAQ](https://support.microsoft.com/help/18581).
 >
 > For specific hardware support, please refer to your Original Equipment Manufacturer (OEM) provider.
 

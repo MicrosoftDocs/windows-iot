@@ -2,7 +2,7 @@
 title: Kiosk Mode
 author: rsameser
 ms.author: riameser
-ms.date: 2/1/2021
+ms.date: 3/12/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -35,7 +35,7 @@ The kiosk account can be a local standard user account, a domain account, or an 
 ## Kiosk capabilities for Windows 10 IoT Enterprise
 | Mode | Features | Description | Customer Usage  |
 |------|----------|------------ |-----------------|
-| Assigned access | Single-app kiosk (UMP)  | Auto launches a UWP app in full screen and prevents access to other system functions, while monitoring the lifecycle of the kiosk app. Only supports one single-app kiosk profile under one account per device. | Digital signs & single function devices
+| Assigned access | Single-app kiosk (UWP)  | Auto launches a UWP app in full screen and prevents access to other system functions, while monitoring the lifecycle of the kiosk app. Only supports one single-app kiosk profile under one account per device. | Digital signs & single function devices
 | Assigned access | Single-app kiosk (Microsoft Edge) | Auto launches Microsoft Edge and prevents access to other system functions, while monitoring the lifecycle of browser. Only supports one single-app kiosk profile under one account per device. | Public browsing kiosks & digital signs |
 | Assigned access | Multi-app kiosk | Always auto launches a restricted Start menu in full screen with the list of allowed app tiles. Supports configuring different multi-app kiosk profiles for different users/user groups per device. | Firstline Worker shared devices |
 | Shell launcher | Shell launcher | Auto launches an app that the customer specifies and monitors the lifecycle of this app. App can be used as a ‘shell’ if desired. No default lockdown policies like hotkey blocking are enforced in Shell Launcher. | Fixed purpose devices with a custom shell experience |

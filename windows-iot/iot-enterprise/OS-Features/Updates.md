@@ -2,7 +2,7 @@
 title: Updates
 author: rsameser
 ms.author: riameser
-ms.date: 2/2/2021
+ms.date: 3/12/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -13,12 +13,14 @@ keywords: IoT Enterprise, Updates
 # OS Updates
 Connected devices have the challenge of new security threats, updates are an essential tool to address this.
 
+The [Microsoft Security Response Center (MSRC)](https://www.microsoft.com/msrc?rtc=1) is part of the defender community and on the front line of security response evolution. MSRC's mission is to protect customers from being harmed by security vulnerabilities in Microsoft's products and services. By building your solution with Windows 10 IoT Enterprise, you have Microsoft Security Response Center's commitment towards security. Please review their [Security Update Guide](https://msrc.microsoft.com/update-guide/) to ensure your devices are up-to-date and secured.
+
 Windows Update Advantage:
 - Keeps device up to date with critical security software updates​
 - Utilize the Microsoft proven and scalable infrastructure
 - Updates can be easily managed and controlled by device owners
 
-Windows 10 IoT Enterprise gives the administrator the power to manage and control updates as per device and organization requirements.
+Windows 10 IoT Enterprise gives you the power to manage and control updates as per device and organization requirements.
 
 ## Control Windows Updates
 One of the most common requests from device partners is centered around controlling automatic updates on Windows 10 IoT devices. The nature of IoT devices is such that unexpected disruptions, through something like an unplanned update, can create a bad device experience.
@@ -49,12 +51,6 @@ You can configure Windows Update in several ways, and not all policies are appli
 >[!NOTE]
 >
 > By setting this policy, it will also stop performing updates from other machines on the local network. To confirm this behavior, you can also turn off [Delivery Optimization](https://docs.microsoft.com/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services#28-delivery-optimization) which is the subsystem for getting updates from others on your local network.
-
-## Prevent drivers from being installed via Windows Update
-Sometimes drivers installed from Windows Update can cause issues with a device experience. The steps below prohibit Windows Update from downloading and installing new drivers on the device.
-
-1. Open the Group Policy Editor (gpedit.msc) and navigate to **Computer Configuration\Administrative Templates\Windows Components\Windows update\Do not include drivers with Windows Updates**.
-2. Enable this policy, which tells Windows to not include drivers with Windows quality updates.
 
 ## Additional Resources
 * [Update Notifications](../Branding-Features/Update-Notification.md)
