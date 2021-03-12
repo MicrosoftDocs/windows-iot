@@ -12,7 +12,7 @@ metadata:
   ms.technology: iot
   author: rsameser
   ms.author: riameser
-  ms.date: 10/16/2020
+  ms.date: 3/12/2021
   
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
   
@@ -91,12 +91,12 @@ conceptualContent:
           text:  Manufacturing Guide
     - title: Resources
       links:
-        - url: https://docs.microsoft.com/en-us/windows/iot-core/resources#blog-posts
+        - url: ./product-family/News-Blogs.md
           itemType: reference
-          text:  Windows IoT Blog
-        - url: https://docs.microsoft.com/en-us/windows/iot-core/resources#videos
+          text:  Windows IoT News & Blogs
+        - url: https://www.youtube.com/channel/UCL7wy-iy_V76xxPnrIzGOZQ
           itemType: reference
-          text:  Windows IoT Videos
-        - url: https://docs.microsoft.com/en-us/windows/iot-core/resources#whitepapers
+          text:  Microsoft IoT Developer
+        - url: https://channel9.msdn.com/
           itemType: reference
-          text:  Whitepapers
+          text: Channel 9 

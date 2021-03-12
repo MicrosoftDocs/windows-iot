@@ -2,7 +2,7 @@
 title: Licensing & Usage
 author: rsameser
 ms.author: riameser
-ms.date: 2/1/2021
+ms.date: 3/12/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -51,7 +51,9 @@ Specialized systems, such as PCs that control medical equipment, point-of-sale s
 Please review [Long-term Servicing Channel](https://docs.microsoft.com/windows/deployment/update/waas-overview#long-term-servicing-channel) for more information.
 
 ### LTSC Model
-Microsoft makes available a new Windows 10 IoT Enterprise LTSC release approximately every three years. Each Windows 10 IoT Enterprise LTSC release is its own SKU and contains all the new capabilities and support updates included in the Windows 10 IoT Enterprise features updates since the previous LTSC release. To access these feature updates, a new Windows 10 IoT Enterprise LTSC SKU license must be purchased. For example, to get access to the new security, deployment, and management updates and features released since the launch of Windows 10 IoT Enterprise 2016 LTSC, a license for Windows 10 IoT Enterprise 2019 LTSC must be purchased, and an update applied to the device. Please note that due to the long life of the LTSC releases and the benefit of remaining on a specific release for 10 years, an upgrade fee will be charged for customers moving from one LTSC release to another.
+Microsoft makes available a new [Windows 10 IoT Enterprise LTSC release](https://docs.microsoft.com/lifecycle/products/?terms=Windows%2010%20IoT%20Enterprise) approximately every three years. Each Windows 10 IoT Enterprise LTSC release is its own SKU and contains all the new capabilities and support updates included in the Windows 10 IoT Enterprise features updates since the previous LTSC release. To access these feature updates, a new Windows 10 IoT Enterprise LTSC SKU license must be purchased. For example, to get access to the new security, deployment, and management updates and features released since the launch of Windows 10 IoT Enterprise 2016 LTSC, a license for Windows 10 IoT Enterprise 2019 LTSC must be purchased, and an update applied to the device. Please note that due to the long life of the LTSC releases and the benefit of remaining on a specific release for 10 years, an upgrade fee will be charged for customers moving from one LTSC release to another.
+
+Please review the [Fixed Lifecycle Policy](https://docs.microsoft.com/lifecycle/policies/fixed) for more information.
 
 ### Windows 10 LTSC Releases
 | LTSC release | Equivalent SAC release | Availability date |
