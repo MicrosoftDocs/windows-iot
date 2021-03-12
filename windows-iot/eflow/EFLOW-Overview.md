@@ -18,7 +18,7 @@ keywords: IoT Enterprise, Linux, Device Builders, Appliance, EFLOW, Azure IoT Ed
 
 IoT Edge for Linux on Windows works by running a Linux virtual machine on a Windows device. The Linux virtual machine comes pre-installed with the IoT Edge runtime. Any IoT Edge modules deployed to the device run inside the virtual machine. Meanwhile, Windows applications running on the Windows host device can communicate with the modules running in the Linux virtual machine.
 
-![Windows and the Linux VM run in parallel, while the Windows Admin Center controls both components](./media/EFLOW.png)
+![Windows and the Linux VM run in parallel, while the Windows Admin Center controls both components](./EFLOW.png)
 
 Bi-directional communication between Windows process and the Linux virtual machine means that Windows processes can provide user interfaces or hardware proxies for workloads run in the Linux containers.
 
