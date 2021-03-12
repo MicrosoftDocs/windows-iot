@@ -2,7 +2,7 @@
 title: Device Management Overview
 author: rsameser
 ms.author: riameser
-ms.date: 2/2/2021
+ms.date: 3/12/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -40,6 +40,6 @@ Azure IoT Device Agent provides a ready-to-build [open source solution](https://
 ## Device Update Center
 [Device Update Center (DUC)](https://docs.microsoft.com/windows-hardware/service/iot/using-device-update-center) is available for IoT Core today. DUC is not really device management, but it is included in this list for completeness. DUC is update control that is staged before device management in the control chain. DUC is a great solution if you are looking to push app updates or control OS updates for a SKU of devices collectively (vs. individual devices as addressed above by Device Management). This means that you can still use device management if you choose DUC for upstream control. This service is often used with [Azure Device Agent](https://github.com/ms-iot/azure-client-tools/blob/master/docs/device-agent/device-agent.md) by appliance device builders.
 
-We are working on bringing Device Update Center to Windows IoT Enterprise in the coming months.
+We are working on bringing Device Update Center to Windows IoT Enterprise in the coming months, it is currently in Private Preview.
 
 To learn more about DUC, please review this animated YouTube video on [Microsoft Device Update Center Primer](https://www.youtube.com/watch?v=mbclu-nWKbU).
