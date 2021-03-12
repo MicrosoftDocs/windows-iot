@@ -1,16 +1,16 @@
 ---
-title: EFLOW
+title: EFLOW Overview
 author: rsameser
 ms.author: riameser
-ms.date: 1/31/2021
+ms.date: 3/12/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
-description: Learn how to integrate Azure IoT Edge for Linux on Windows with your Windows 10 IoT Enterprise solution.
+description: Learn to integrate Azure IoT Edge for Linux on Windows with Windows IoT.
 keywords: IoT Enterprise, Linux, Device Builders, Appliance, EFLOW, Azure IoT Edge
 ---
 
-# Azure IoT Edge for Linux on Windows (EFLOW)
+# Azure IoT Edge for Linux on Windows (EFLOW) Overview
 >[!NOTE]
 >Azure IoT Edge for Linux on Windows (EFLOW) is currently in public preview. [Get started](https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge-on-windows) with the preview today.
 

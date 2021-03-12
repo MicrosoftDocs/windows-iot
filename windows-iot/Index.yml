@@ -42,7 +42,7 @@ productDirectory:
     - title: Edge for Linux on Windows IoT
       imageSrc: ./media/index/windows.png
       links:
-        - url: ./eflow/EFLOW.md
+        - url: ./eflow/EFLOW-Overview.md
           text: Overview
         - url: https://docs.microsoft.com/azure/iot-edge/quickstart?view=iotedge-2018-06
           text: Quickstart
