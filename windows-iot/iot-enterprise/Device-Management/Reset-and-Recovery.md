@@ -10,6 +10,7 @@ description: Learn about how to reset and recover your Windows 10 IoT Enterprise
 keywords: IoT Enterprise, Device Management, Reset, Recovery
 ---
 # Device Reset and Recovery
+This article will give you an overview on [Device Reset](#device-reset) and [Device Recovery](#device-recovery) features.
 
 ## Device Reset
 Device reset is a process to restore the device to its initial conditions (with all user data removed). This is useful when you want to wipe out the user data/enterprise provisioning data and bring the device back to its pristine state.
@@ -28,21 +29,13 @@ Device reset includes the following key operations:
 >
 > The Recovery process will also roll back the updates and put the device back to the factory condition.
 
-### Factory Reset
-Factory reset restores the state of the device back to its first-boot state plus any update packages. The reset will **not** return device to the original factory state. To return the device to the original factory state, you must flash it with the original factory image by using the Windows Device Recovery Tool. All the provisioning applied to the device by the enterprise will be lost and will need to be re-applied if needed.
+##### Factory Reset
+[Factory reset](https://support.microsoft.com/windows/how-to-refresh-reset-or-restore-your-pc-51391d9a-eb0a-84a7-69e4-c2c1fbceb8dd) restores the state of the device back to its first-boot state plus any update packages. The reset will **not** return device to the original factory state. To return the device to the original factory state, you must flash it with the original factory image. All the provisioning applied to the device by the enterprise will be lost and will need to be re-applied if needed.
 
-### Autopilot Reset
-You can use [Autopilot Reset](https://docs.microsoft.com/education/windows/autopilot-reset#trigger-autopilot-reset) to quickly remove data, apps, and settings, and reset Windows 10 IoT devices from the lock screen any time and apply original settings and management enrollment (Azure Active Directory and Device Management) so the devices are ready to use. With Autopilot Reset, devices are returned to a fully configured state.
-
-To enable Autopilot Reset, you must:
-
-1. [Enable the policy for the feature](https://docs.microsoft.com/education/windows/autopilot-reset#enable-autopilot-reset)
-2. [Trigger a reset for each device](https://docs.microsoft.com/education/windows/autopilot-reset#trigger-autopilot-reset)
-
-### Reset using Mobile Device Management
+##### Reset using Mobile Device Management
 Device reset can be triggered using the [RemoteWipe CSP](https://docs.microsoft.com/windows/client-management/mdm/remotewipe-csp)
 
-### Reset using Azure Device Management
+##### Reset using Azure Device Management
 Device reset can also be triggered using the Azure Device Management using [Remote Wipe API](https://github.com/ms-iot/iot-core-azure-dm-client/blob/master/docs/remote-wipe.md).
 
 > [!NOTE]
@@ -54,9 +47,9 @@ Device reset can also be triggered using the Azure Device Management using [Remo
 Device recovery is a process to recover inoperable devices due to incorrect or bad storage state. This is done by booting into a known safe OS or recovery OS and re-flash the storage media.
 
 The three key elements of recovery are:
-1. **Safe OS**: Windows provides Windows Preinstallation Environment (WinPE) which is a minimal OS with basic graphics support and boots to a command prompt. This is delivered with Windows ADK. For certain hardware configurations and storage media types, specific drivers may be required to be added to WinPE to boot successfully. This OS can be configured to launch on boot, the flashing app with a predefined location for the recovery images.
+1. **Safe OS**: This OS can be configured to launch on boot without UI. And in this state it can run a flashing app to apply a recovery image from a predefined location.
 2. **Recovery SW**: SW Image used to re-flash the devices
-3. **Recovery design choice**: Based on the location of the Safe OS and the recovery software, various design choices are available. The design choice is influenced by the hardware available (eg. USB port). These require changes in the BSP to realize the complete functionality.
+3. **Recovery design choice**: Based on the location of the Safe OS and the recovery software, various design choices are available, see the various options below.
 
 >[!NOTE]
 >
@@ -78,7 +71,7 @@ BSP Changes:
 ### Recovery using built-in safe OS
 In this method, the device contains a safe OS in a separate partition. Based on the location of the recovery SW, there can be few options. They are detailed below.
 
-#### Recovery SW from USB device/ SD card
+###### Recovery SW from USB device/ SD card
 In this option, the Recovery SW is picked up from the attached USB device/ SD card.
 
 Hardware Requirements:
@@ -91,14 +84,14 @@ BSP Changes:
 * Device layout changes to store safe OS (size can be smaller to accommodate only the safe OS)
 * Flashing tool to update only the main OS and Data partitions and skip updating the safe OS partition. This is essential to preserve the safe OS to be able to retry recovery if there is a power loss during a recovery process.
 
-#### Recovery SW from recovery partition
+###### Recovery SW from recovery partition
 This option is like earlier option, with only difference of storing the Recovery SW in the recovery partition itself. The device layout for this approach may differ in the size of the recovery partition (larger to accommodate the Recovery SW and potentially a backup Recovery SW).
 
 > [!TIP]
 >
 > A Recovery SW present in the device will become outdated over time and the OS version after the recovery may fall-off the update train. One way to mitigate this issue is to refresh the Recovery SW image on the device using the BSP update path on a yearly cadence.
 
-#### Recovery SW from cloud
+###### Recovery SW from cloud
 In this option, the Recovery SW is downloaded from a predefined cloud service/web location. The cloud service needs to be setup so that it can securely offer the Recovery SW to the device. To realize this option, the safe OS must support network connectivity, so Wi-Fi drivers need to be added to the safe OS and in addition to that, the Wi-Fi profile in the main OS should be also made available for safe OS to connect to the network.
 
 
