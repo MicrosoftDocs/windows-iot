@@ -1,6 +1,0 @@
-- name: Azure IoT Edge for Linux on Windows
-  href: EFLOW-Overview.md
-- name: Quickstart
-  href: https://docs.microsoft.com/azure/iot-edge/quickstart?view=iotedge-2018-06
-- name: How-to Guide
-  href: https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge-on-windows?view=iotedge-2018-06&tabs=powershell
