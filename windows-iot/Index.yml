@@ -35,27 +35,27 @@ productDirectory:
       links:
         - url: ./iot-enterprise/Getting_Started.md
           text: Overview
-        - url: https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/iot-ent-overview
+        - url: https://docs.microsoft.com/windows-hardware/manufacture/desktop/iot-ent-overview
           text: Manufacturing Guide
         - url: ./iot-enterprise/Kiosk-Mode/Kiosk-Mode.md
           text: Kiosk Mode
     - title: Windows 10 IoT Core
       imageSrc: ./media/index/windows.png
       links:
-        - url: https://docs.microsoft.com/en-us/windows/iot-core/windows-iot-core
+        - url: https://docs.microsoft.com/windows/iot-core/windows-iot-core
           text: Overview
-        - url: https://docs.microsoft.com/en-us/windows-hardware/manufacture/iot/iot-core-manufacturing-guide
+        - url: https://docs.microsoft.com/windows-hardware/manufacture/iot/iot-core-manufacturing-guide
           text: Manufacturing Guide
-        - url: https://docs.microsoft.com/en-us/windows/iot-core/connect-your-device/iotdashboard
+        - url: https://docs.microsoft.com/windows/iot-core/connect-your-device/iotdashboard
           text: Dashboard
     - title: Windows 10 IoT Core Services
       imageSrc: ./media/index/windows.png
       links:
-        - url: https://docs.microsoft.com/en-us/windows-hardware/manufacture/iot/iotcoreservicesoverview
+        - url: https://docs.microsoft.com/windows-hardware/manufacture/iot/iotcoreservicesoverview
           text: Overview
-        - url: https://docs.microsoft.com/en-us/windows/deployment/update/waas-overview#long-term-servicing-channel
+        - url: https://docs.microsoft.com/windows/deployment/update/waas-overview#long-term-servicing-channel
           text: Windows Long-Term Servicing Channel (LTSC) Releases
-        - url: https://docs.microsoft.com/en-us/windows-hardware/service/iot/using-device-update-center
+        - url: https://docs.microsoft.com/windows-hardware/service/iot/using-device-update-center
           text: Device Update Center
     - title: Windows CE Migration
       imageSrc: ./media/index/windows.png
@@ -71,14 +71,14 @@ productDirectory:
       links:
         - url: ./server/windows-server.md
           text: Overview
-        - url: https://docs.microsoft.com/en-us/windows-server/get-started-19/whats-new-19
+        - url: https://docs.microsoft.com/windows-server/get-started-19/whats-new-19
           text:  What's new in Windows Server 2019?
-        - url: https://docs.microsoft.com/en-us/windows-server/get-started-19/get-started-19
+        - url: https://docs.microsoft.com/windows-server/get-started-19/get-started-19
           text:  Get Started with Windows Server 2019
     - title: Azure IoT Edge for Linux on Windows
       imageSrc: ./media/index/windows.png
       links:
-        - url: https://docs.microsoft.com/en-us/azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06
+        - url: https://docs.microsoft.com/azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06
           text: Overview
         - url: https://docs.microsoft.com/azure/iot-edge/quickstart?view=iotedge-2018-06
           text: Quickstart
@@ -92,20 +92,20 @@ conceptualContent:
         - url: ./iot-enterprise/Commercialization/Licensing.md
           itemType: overview
           text:  OEMs & Licensing
-        - url: https://docs.microsoft.com/en-us/windows-hardware/design/minimum/minimum-hardware-requirements-overview
+        - url: https://docs.microsoft.com/windows-hardware/design/minimum/minimum-hardware-requirements-overview
           itemType: quickstart
           text:  Hardware Compatability List
-        - url: https://docs.microsoft.com/en-us/windows-hardware/manufacture/
+        - url: https://docs.microsoft.com/windows-hardware/manufacture/
           itemType: how-to-guide
           text:  Manufacturing Guide
     - title: Resources
       links:
-        - url: https://docs.microsoft.com/en-us/windows/iot-core/resources#blog-posts
+        - url: https://docs.microsoft.com/windows/iot-core/resources#blog-posts
           itemType: reference
           text:  Windows IoT Blog
-        - url: https://docs.microsoft.com/en-us/windows/iot-core/resources#videos
+        - url: https://docs.microsoft.com/windows/iot-core/resources#videos
           itemType: reference
           text:  Windows IoT Videos
-        - url: https://docs.microsoft.com/en-us/windows/iot-core/resources#whitepapers
+        - url: https://docs.microsoft.com/windows/iot-core/resources#whitepapers
           itemType: reference
           text:  Whitepapers
