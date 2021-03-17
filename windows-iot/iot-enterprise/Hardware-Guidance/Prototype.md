@@ -2,7 +2,7 @@
 title: Start Prototyping
 author: rsameser
 ms.author: riameser
-ms.date: 2/2/2021
+ms.date: 3/12/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -31,14 +31,10 @@ To get started, you can try the [Windows 10 IoT Enterprise 90 day Evaluation](ht
 If your board comes with instructions on how to deploy Windows 10 IoT Enterprise, follow those instructions. Otherwise, you can follow the labs provided in the [Windows 10 IoT Enterprise Manufacturing Guide](../Commercialization/Manufacturing-Guide.md).
 
 ## Step 4: Load an Application
-You can choose to port over your existing Windows applications or try out [Universal Windows Platform (UWP)](https://docs.microsoft.com/windows/uwp/get-started/universal-application-platform-guide) applications.
-
-All UWP applications are designed to run on all Windows 10 API compatible platforms, including Windows 10 IoT Enterprise. UWP is one of many ways to create client applications for Windows. UWP apps use WinRT APIs to provide powerful UI and advanced asynchronous features that are ideal for internet-connected devices.
-
-You can either choose an existing UWP application to run or create your own. Feel free to reference our [UWP app samples](https://github.com/microsoft/Windows-universal-samples) in GitHub.
+You can choose to port over any of your existing [Windows applications](https://docs.microsoft.com/windows/apps/desktop/choose-your-platform) or feel free to reference any of our [UWP app samples](https://github.com/microsoft/Windows-universal-samples) in GitHub.
 
 ## Step 5: Licensing & Distribution
-If you are interested in pursuing your prototype, past the 90-day evaluation period, reach out to a Windows IoT distributor. Microsoft offers more than 500 Windows IoT and Embedded SKUs. Authorized distributors of Windows IoT products can help you pick the right SKU for your hardware and your budget by leveraging their development experiences, and knowledge, to help you build secure and connected Windows IoT solutions. If you would like to work with one of our distributors, please [select a distributor](https://aka.ms/IoTDistributorList) in your region and contact the distributor directly for more details.
+If you are interested in pursuing your prototype, past the 90-day evaluation period, reach out to a Windows IoT distributor. Microsoft offers many Windows IoT and Embedded SKUs, and authorized distributors of Windows IoT products can help you pick the right SKU for your hardware and your budget by leveraging their development experiences, and knowledge, to help you build secure and connected Windows IoT solutions. If you would like to work with one of our distributors, please [select a distributor](https://aka.ms/IoTDistributorList) in your region and contact the distributor directly for more details.
 
 ## Additional Resources
 * [Windows 10 IoT Enterprise Manufacturing Guide](https://docs.microsoft.com/windows-hardware/manufacture/desktop/iot-ent-overview)

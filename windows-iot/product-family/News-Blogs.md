@@ -24,6 +24,9 @@ Stay up to date with the latest news and announcements regarding the Windows IoT
 **February**
 * Blog: [Windows 10 IoT Long Term Servicing Channel upcoming availability](https://techcommunity.microsoft.com/t5/internet-of-things/windows-10-iot-long-term-servicing-channel-upcoming-availability/ba-p/2139861)
 
+**March**
+* Video: [Accelerating Edge AI solutions](https://myignite.microsoft.com/sessions/f5808715-5b97-4588-b4e5-31f00be2eb75?source=schedule)
+
 
 # [2020](#tab/2020)
 **January**

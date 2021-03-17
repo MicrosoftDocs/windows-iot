@@ -12,7 +12,7 @@ metadata:
   ms.technology: iot
   author: rsameser
   ms.author: riameser
-  ms.date: 10/16/2020
+  ms.date: 3/12/2021
   
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
   
@@ -102,10 +102,10 @@ conceptualContent:
       links:
         - url: ./product-family/News-Blogs.md
           itemType: reference
-          text: Windows IoT News & Blogs
+          text:  Windows IoT News & Blogs
         - url: https://www.youtube.com/channel/UCL7wy-iy_V76xxPnrIzGOZQ
           itemType: reference
-          text: Microsoft IoT Developer
+          text:  Microsoft IoT Developer
         - url: https://channel9.msdn.com/
           itemType: reference
           text: Channel 9 

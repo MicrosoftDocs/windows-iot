@@ -2,7 +2,7 @@
 title: Security
 author: rsameser
 ms.author: riameser
-ms.date: 2/1/2021
+ms.date: 3/12/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -38,10 +38,10 @@ Windows Security provides the following built-in security options to help protec
 * Help ensure platform integrity by taking and storing security measurements.
 
 ##### Windows Device Health Attestation​
-Modern malware is getting more and more sophisticated. Some of them, specifically bootkits, are capable of starting before Windows. [Device Health Attestation](https://github.com/ms-iot/iot-core-azure-dm-client/blob/master/docs/device-health-attestation.md) can be used to detect and remediate in the unlikely event where a device is infected. The device's firmware logs the boot process, and [Windows](https://docs.microsoft.com/windows-server/security/device-health-attestation) can send it to a trusted Health Attestation Server that can objectively assess the device's health.
+Modern malware is getting more and more sophisticated. Some of them, specifically bootkits, are capable of starting before Windows. [Device Health Attestation](https://docs.microsoft.com/windows/security/threat-protection/protect-high-value-assets-by-controlling-the-health-of-windows-10-based-devices#device-health-attestation) can be used to detect and remediate in the unlikely event where a device is infected. The device's firmware logs the boot process, and [Windows](https://docs.microsoft.com/windows-server/security/device-health-attestation) can send it to a trusted Health Attestation Server that can objectively assess the device's health.
 
 ##### Secure Boot​
-[Secure boot](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-secure-boot) is a security standard developed by members of the PC industry to help make sure that a device boots using only software that is trusted by the Original Equipment Manufacturer (OEM). When the PC starts, the firmware checks the signature of each piece of boot software, including UEFI firmware drivers (also known as Option ROMs), EFI applications, and the operating system. If the signatures are valid, the PC boots, and the firmware gives control to the operating system.
+[Secure boot](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-secure-boot) is a security standard developed by members of the PC industry to help make sure that a device boots using only software that is trusted by the Original Equipment Manufacturer (OEM). When the PC starts, the firmware checks the signature of each piece of boot software, including UEFI firmware drivers (also known as Option ROMs), and the operating system. If the signatures are valid, the PC boots, and the firmware gives control to the operating system.
 
 The OEM can use instructions from the firmware manufacturer to create Secure boot keys and to store them in the PC firmware. When you add UEFI drivers, you'll also need to make sure these are signed and included in the Secure Boot database.
 
@@ -91,7 +91,7 @@ In case something is to go wrong with your device, Windows 10 IoT Enterprise sup
 
 **Option #2:** Reimage the device back to factory settings.
 
-*[Windows IoT Device Health Attestation](#windows-device-health-attestation) enables the operator to assess if a device is booted to a trusted and compliant state, and take appropriate remedial actions if necessary through Azure IoT Hub Device Management.*
+*[Windows IoT Device Health Attestation](#windows-device-health-attestation) enables the operator to assess if a device is booted to a trusted and compliant state, and takes appropriate remedial actions if necessary.*
 
 
 ## Additional resources
