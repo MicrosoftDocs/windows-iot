@@ -100,12 +100,12 @@ conceptualContent:
           text:  Manufacturing Guide
     - title: Resources
       links:
-        - url: https://docs.microsoft.com/windows/iot-core/resources#blog-posts
+        - url: ./product-family/News-Blogs.md
           itemType: reference
-          text:  Windows IoT Blog
-        - url: https://docs.microsoft.com/windows/iot-core/resources#videos
+          text: Windows IoT News & Blogs
+        - url: https://www.youtube.com/channel/UCL7wy-iy_V76xxPnrIzGOZQ
           itemType: reference
-          text:  Windows IoT Videos
-        - url: https://docs.microsoft.com/windows/iot-core/resources#whitepapers
+          text: Microsoft IoT Developer
+        - url: https://channel9.msdn.com/
           itemType: reference
-          text:  Whitepapers
+          text: Channel 9 
