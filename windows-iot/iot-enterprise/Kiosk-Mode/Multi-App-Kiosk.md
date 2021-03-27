@@ -2,7 +2,7 @@
 title: Multi-App Kiosk
 author: rsameser
 ms.author: riameser
-ms.date: 1/31/2021
+ms.date: 3/26/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -27,5 +27,6 @@ A multi-app kiosk is appropriate for devices that are shared by multiple people.
 > When you configure a multi-app kiosk, [specific policies](https://docs.microsoft.com/windows/configuration/kiosk-policies) are enforced that will affect all non-administrator users on the device.
 
 ## Additional Resources
-* [Guidelines for choosing an app for assigned access](https://docs.microsoft.com/windows/configuration/guidelines-for-assigned-access-app)
+* [Set up a multi-app kiosk](https://docs.microsoft.com/windows/configuration/lock-down-windows-10-to-specific-apps)
 * [Kiosk apps for assigned access: Best practices](https://docs.microsoft.com/windows-hardware/drivers/partnerapps/create-a-kiosk-app-for-assigned-access)
+* [Guidelines for choosing an app for assigned access](https://docs.microsoft.com/windows/configuration/guidelines-for-assigned-access-app)
