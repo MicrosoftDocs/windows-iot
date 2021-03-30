@@ -42,7 +42,7 @@ The kiosk account can be a local standard user account, a domain account, or an 
 
 ## How to configure your device for kiosk mode?
 Please visit the following documentation to set up a kiosk according to your scenario:
-* [Configure kiosks and digital signs](https://docs.microsoft.com/en-us/windows/configuration/kiosk-methods)
+* [Configure kiosks and digital signs](https://docs.microsoft.com/windows/configuration/kiosk-methods)
 * [Prepare a device for kiosk configuration](https://docs.microsoft.com/windows/configuration/kiosk-prepare)
 * [Set up digital signs on Windows 10](https://docs.microsoft.com/windows/configuration/setup-digital-signage)
 * [Set up a single-app kiosk](https://docs.microsoft.com/windows/configuration/kiosk-single-app)

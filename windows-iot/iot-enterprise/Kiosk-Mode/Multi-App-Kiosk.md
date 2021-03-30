@@ -31,6 +31,6 @@ A multi-app kiosk is appropriate for devices that are shared by multiple people.
 * [Set up a multi-app kiosk](https://docs.microsoft.com/windows/configuration/lock-down-windows-10-to-specific-apps)
 * [Kiosk apps for assigned access: Best practices](https://docs.microsoft.com/windows-hardware/drivers/partnerapps/create-a-kiosk-app-for-assigned-access)
 * [Guidelines for choosing an app for assigned access](https://docs.microsoft.com/windows/configuration/guidelines-for-assigned-access-app)
-* [Configure kiosks and digital signs](https://docs.microsoft.com/en-us/windows/configuration/kiosk-methods)
+* [Configure kiosks and digital signs](https://docs.microsoft.com/windows/configuration/kiosk-methods)
 * [Prepare a device for kiosk configuration](https://docs.microsoft.com/windows/configuration/kiosk-prepare)
 * [More kiosk methods and reference information](https://docs.microsoft.com/windows/configuration/kiosk-additional-reference)
