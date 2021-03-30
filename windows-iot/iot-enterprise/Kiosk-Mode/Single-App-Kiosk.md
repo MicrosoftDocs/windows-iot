@@ -2,7 +2,7 @@
 title: Assigned access Single-App Kiosk
 author: rsameser
 ms.author: riameser
-ms.date: 2/1/2021
+ms.date: 3/30/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -34,5 +34,9 @@ You have several options for configuring your single-app kiosk.
 
 
 ## Additional Resources
+* [Set up a single-app kiosk](https://docs.microsoft.com/windows/configuration/kiosk-single-app)
 * [Guidelines for choosing an app for assigned access](https://docs.microsoft.com/windows/configuration/guidelines-for-assigned-access-app)
 * [Kiosk apps for assigned access: Best practices](https://docs.microsoft.com/windows-hardware/drivers/partnerapps/create-a-kiosk-app-for-assigned-access)
+* [Configure kiosks and digital signs](https://docs.microsoft.com/en-us/windows/configuration/kiosk-methods)
+* [Prepare a device for kiosk configuration](https://docs.microsoft.com/windows/configuration/kiosk-prepare)
+* [More kiosk methods and reference information](https://docs.microsoft.com/windows/configuration/kiosk-additional-reference)
