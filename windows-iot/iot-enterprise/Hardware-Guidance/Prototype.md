@@ -25,7 +25,7 @@ The following boards have been proven to be a great start point for your Windows
 *If you are a SoM provider or an ODM and would like to be added to the list above, directly edit this page and submit a pull request or send an email to winiotentsomhelp@microsoft.com*
 
 ## Step 2: Evaluate Edition
-To get started, you can try the [Windows 10 IoT Enterprise 90 day Evaluation](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise). To select which edition of Windows 10 IoT Enterprise you would like to work with, review [Features by Release](../Features.md).
+To get started, you will need a copy of Windows 10 IoT Enterprise, visit [downloads](../Downloads.md) to retrieve your copy. To select which edition you would like to work with, review [Features by Release](../Features.md).
 
 ## Step 3: Deploy an Image
 If your board comes with instructions on how to deploy Windows 10 IoT Enterprise, follow those instructions. Otherwise, you can follow the labs provided in the [Windows 10 IoT Enterprise Manufacturing Guide](../Commercialization/Manufacturing-Guide.md).
