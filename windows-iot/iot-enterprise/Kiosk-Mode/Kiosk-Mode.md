@@ -47,6 +47,7 @@ Please visit the following documentation to set up a kiosk according to your sce
 * [Set up digital signs on Windows 10](https://docs.microsoft.com/windows/configuration/setup-digital-signage)
 * [Set up a single-app kiosk](https://docs.microsoft.com/windows/configuration/kiosk-single-app)
 * [Set up a multi-app kiosk](https://docs.microsoft.com/windows/configuration/lock-down-windows-10-to-specific-apps)
+* [Configure Microsoft Edge kiosk mode](https://docs.microsoft.com/deployedge/microsoft-edge-configure-kiosk-mode)
 
 ## Additional Resources
 * [Find the Application User Model ID of an installed app](https://docs.microsoft.com/windows/configuration/find-the-application-user-model-id-of-an-installed-app)
@@ -58,3 +59,4 @@ Please visit the following documentation to set up a kiosk according to your sce
 * [Use Shell Launcher to create a Windows 10 kiosk](https://docs.microsoft.com/windows/configuration/kiosk-shelllauncher)
 * [Use MDM Bridge WMI Provider to create a Windows 10 kiosk](https://docs.microsoft.com/windows/configuration/kiosk-mdm-bridge)
 * [Troubleshoot kiosk mode issues](https://docs.microsoft.com/windows/configuration/kiosk-troubleshoot)
+* [Plan your kiosk mode transition to Microsoft Edge](https://docs.microsoft.com/deployedge/microsoft-edge-kiosk-mode-transition-plan)
