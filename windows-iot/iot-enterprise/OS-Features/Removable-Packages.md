@@ -22,13 +22,6 @@ Package Types Include:
 * Fonts
 
 
-### How to remove OS Packages
-1. Load PowerShell description
-2. Review and Select packages
-3. DISM package(s) for removal
-4. Reboot device
-5. Start component clean-up
-
 >[!NOTE]
 >
 > This action cannot be undone, device must be re-imaged to recover removed package
