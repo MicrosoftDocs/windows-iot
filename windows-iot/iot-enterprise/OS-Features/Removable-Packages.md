@@ -115,15 +115,6 @@ Package Types Include:
 | **Recommendation** | Microsoft recommendation/advice about removing this package on Windows 10 IoT Enterprise. |
 | **Comments** | Additional explanation |
 
-## Desktop File Explorer
-| Name | Description |
-|--|--|
-| **DesktopFileExplorer** | Microsoft-Windows-DesktopFileExplorer |
-| **Description** | File Explorer for system app |
-| **Installation** | *Always installed*: Package is installed on Windows 10 IoT Enterprise. |
-| **Recommendation** | Microsoft recommendation/advice about removing this package on Windows 10 IoT Enterprise. |
-| **Comments** | Additional explanation |
-
 ## Fonts
 | Name | Description |
 |--|--|
