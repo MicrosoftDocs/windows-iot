@@ -62,6 +62,8 @@
     href: OS-Features/Updates.md
   - name: App Updates 
     href: Device-Management/App-Updates.md
+  - name: Reset and Recovery
+    href: Device-Management/Reset-and-Recovery.md
 - name: IoT Device Features
   expanded: false 
   items:
