@@ -15,8 +15,13 @@ One way of optimizing your device is through having a reduced disk footprint. We
 
 Package Types Include:
 * Drivers & Tools
+  * [DVD Boot Environment](#dvd=Boot Environment)
 * Built-in Apps
+* Application Management
+  * [Accounts Control Experience Modal](#accounts-control-experience-modal)
+  * [App Management UEV](#app-management-uev)
 * Biometrics
+  *[Bio Enrollment UX](#bio-enrollment-ux)
 * Media
 * Language
 * Fonts
