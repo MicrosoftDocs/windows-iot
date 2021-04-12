@@ -46,7 +46,7 @@ To completely disable automatic updating of Windows 10 with Windows Update:
 2. Explicitly set the policy to **Disabled**. When this setting is set to Disabled, any available updates from Windows Update must be downloaded and installed manually, which you can do in the Settings app under **Update & security > Windows Update**.
 
 ## Completely Turn Off Windows Updates
-You can configure Windows Update in several ways, and not all policies are applicable to all devices. As a general rule, IoT devices require special attention to the servicing and management strategy to be used on the devices. If your servicing strategy is to disable all Windows Update features, you have two possible approaches. You can turn off updates via [Group Policy](https://docs.microsoft.com/windows-hardware/manufacture/desktop/iot-ent-configure-policy-settings#windows-update-summary) or [Registry](https://docs.microsoft.com/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services#bkmk-wu).
+You can configure Windows Update in several ways. As a general rule, IoT devices require special attention to the servicing and management strategy to be used on the devices. If your servicing strategy is to disable all Windows Update features, you have two possible approaches. You can turn off updates via [Group Policy](https://docs.microsoft.com/windows-hardware/manufacture/desktop/iot-ent-configure-policy-settings#windows-update-summary) or through [Registry](https://docs.microsoft.com/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services#bkmk-wu).
 
 >[!NOTE]
 >
