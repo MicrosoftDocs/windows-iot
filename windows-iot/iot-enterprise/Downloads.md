@@ -16,7 +16,7 @@ If you would like to download Windows 10 IoT Enterprise, please review the optio
 To select which edition of Windows 10 IoT Enterprise you would like to work with, review [Features by Release](./Features.md).
 
 ## 90 Day Evaluation
-You can download a free [90 day evaluation copy](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise) of Windows 10 IoT Enterprise.
+You can download a free [90 day evaluation copy](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise) of Windows 10 Enterprise, a binary equivalent of Windows 10 IoT Enterprise.
 
 
 ## Visual Studio Subscriptions
