@@ -41,7 +41,8 @@
     "globalMetadata": {
       "breadcrumb_path": "/windows/iot/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+	  "uhfHeaderId": "MSDocsHeader-Windows-IoT"
     },
     "fileMetadata": {},
     "template": [],
