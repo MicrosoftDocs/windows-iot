@@ -27,6 +27,9 @@ Stay up to date with the latest news and announcements regarding the Windows IoT
 **March**
 * Video: [Accelerating Edge AI solutions](https://myignite.microsoft.com/sessions/f5808715-5b97-4588-b4e5-31f00be2eb75?source=schedule)
 
+**April**
+* Blog: [HMI review: building more agile factories with Azure IoT and Windows IoT](https://techcommunity.microsoft.com/t5/internet-of-things/hmi-review-building-more-agile-factories-with-azure-iot-and/ba-p/2273231)
+
 
 # [2020](#tab/2020)
 **January**
