@@ -1,7 +1,7 @@
 ---
 title: EFLOW
-author: rsameser
-ms.author: riameser
+author: fcabrera
+ms.author: fcabrera
 ms.date: 1/31/2021
 ms.topic: article
 ms.prod: windows-iot
@@ -11,8 +11,7 @@ keywords: IoT Enterprise, Linux, Device Builders, Appliance, EFLOW, Azure IoT Ed
 ---
 
 # Azure IoT Edge for Linux on Windows (EFLOW)
->[!NOTE]
->Azure IoT Edge for Linux on Windows (EFLOW) is currently in public preview. [Get started](https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge-on-windows) with the preview today.
+
 
 [Azure IoT Edge for Linux on Windows](https://docs.microsoft.com/azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06&preserve-view=true) allows you to run containerized Linux workloads alongside Windows applications in Windows IoT deployments. Businesses that rely on Windows IoT to power their edge devices can now take advantage of the cloud-native analytics solutions being built in Linux.
 
@@ -21,6 +20,8 @@ IoT Edge for Linux on Windows works by running a Linux virtual machine on a Wind
 ![Windows and the Linux VM run in parallel, while the Windows Admin Center controls both components](./media/EFLOW.png)
 
 Bi-directional communication between Windows process and the Linux virtual machine means that Windows processes can provide user interfaces or hardware proxies for workloads run in the Linux containers.
+
+[Get started](https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge-on-windows) today.
 
 
 ## Benefits
@@ -37,4 +38,4 @@ In addition, Windows applications can easily interact with Linux modules running
 ## Additional Resources
 * [EFLOW Documentation](https://docs.microsoft.com/azure/iot-edge/iot-edge-for-linux-on-windows?view=iotedge-2018-06&preserve-view=true)
 * [IoT Show: Run Linux based IoT Edge modules on Windows IoT](https://www.youtube.com/watch?v=UB2yigjg5V8)
-* [Get started](https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge-on-windows) with the preview today.
+* [Get started](https://docs.microsoft.com/azure/iot-edge/how-to-install-iot-edge-on-windows) today.
