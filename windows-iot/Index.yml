@@ -92,7 +92,7 @@ conceptualContent:
         - url: ./iot-enterprise/Commercialization/Licensing.md
           itemType: overview
           text:  OEMs & Licensing
-        - url: ./product-family/Windows-IoT-Distributor-Information.pdf
+        - url: https://aka.ms/IoTDistributorList
           itemType: how-to-guide
           text:  Distributor Information
         - url: https://docs.microsoft.com/windows-hardware/design/minimum/minimum-hardware-requirements-overview
