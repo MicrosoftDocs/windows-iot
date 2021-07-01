@@ -19,7 +19,7 @@ A single-app kiosk uses the assigned access feature to run a single app above th
 
 
 ## Benefits of using a single-app kiosk
-A single-app kiosk is ideal for public use. Using [shell launcher](./Shell-Launcher.md), you can configure a kiosk device that runs a Windows desktop application as the user interface. The application that you specify replaces the default shell (explorer.exe) that usually runs when a user logs on. This type of single-app kiosk does not run above the lock screen.
+A single-app kiosk is ideal for public use. Using [shell launcher](./Shell-Launcher.md), you can configure a kiosk device that runs a Windows desktop application as the user interface. The application that you specify replaces the default shell (explorer.exe) that usually runs when a user logs on. This type of single-app kiosk runs above the lock screen, and users will have access to only this app and nothing else on the system. This experience is often used for public-facing kiosk machines. Check out [Set up a kiosk on Windows 10 Pro, Enterprise, or Education](https://docs.microsoft.com/windows/configuration/set-up-a-kiosk-for-windows-10-for-desktop-editions) for more information.
 
 
 ## Configuring your single-app kiosks
