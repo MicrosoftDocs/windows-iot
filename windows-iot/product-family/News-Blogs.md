@@ -2,7 +2,7 @@
 title: What's New in Windows IoT?
 author: rsameser
 ms.author: riameser
-ms.date: 3/5/2021
+ms.date: 7/16/2021
 ms.topic: article
 ms.prod: windows-iot
 ms.technology: iot
@@ -40,6 +40,7 @@ Stay up to date with the latest news and announcements regarding the Windows IoT
 
 **July**
 * Blog: [Windows IoT support lifecycle and upcoming releases](https://techcommunity.microsoft.com/t5/internet-of-things/windows-iot-support-lifecycle-and-upcoming-releases/ba-p/2511888)
+* Blog: [Introducing the next feature update to Windows 10: 21H2](https://blogs.windows.com/windowsexperience/2021/07/15/introducing-the-next-feature-update-to-windows-10-21h2/)
 
 # [2020](#tab/2020)
 **January**
